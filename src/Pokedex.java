@@ -1,11 +1,13 @@
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -22,7 +24,7 @@ public class Pokedex {
     public Pokedex(){
         
         this.allPokemons = this.createPokemons();
-        System.out.println(this.allPokemons);
+        //System.out.println(this.allPokemons);
 
         JFrame frame = new JFrame("The Pokedex App V1.0");
         frame.setSize(800, 600);
@@ -33,17 +35,28 @@ public class Pokedex {
 
         
         JPanel panel = new JPanel();
+        panel.setSize(600, 600);
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-        panel.setLayout(new GridLayout(2, 2));
+        panel.setLayout(new GridLayout(3, 3));
         frame.add(panel, BorderLayout.CENTER);
         
-        JButton button = new JButton("Click me!");
-        panel.add(button);
+        //JButton button = new JButton("Click me!");
+        //panel.add(button);
         
-        JLabel label = new JLabel("I'm a label!");
-        panel.add(label);
+        JLabel label = new JLabel("The first pokemon IMAGE");
+        panel.add(label,BorderLayout.CENTER);
 
-        frame.pack();
+        try {                
+            BufferedImage image = ImageIO.read(new File(String.join(File.separator,"Card_Img",this.allPokemons.get(0).getCardSprite())));
+            JLabel picLabel = new JLabel(new ImageIcon(image));
+            panel.add(picLabel,0);
+       } catch (IOException ex) {
+            System.out.println(String.join(File.separator,"Card_Img",this.allPokemons.get(0).getCardSprite()));
+       }
+
+
+
+        //frame.pack();
         frame.setVisible(true);
 
     }
@@ -54,7 +67,7 @@ public class Pokedex {
      * the board of image Name in the Card_Img directory
      */
     public String[] getAllImages(){
-        File directoryPath = new File(String.join(File.separator,"Card_Img"));
+        File directoryPath = new File(String.join(File.pathSeparator,"Card_Img"));
         String contents[] = directoryPath.list();
         return contents;
     }
