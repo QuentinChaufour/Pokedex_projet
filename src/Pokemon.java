@@ -3,29 +3,39 @@
 public class Pokemon {
     private String cardSprite;
     private String namePoke;
+    private String numPoke;
     private String rarity; // common, uncommon, rare, etc
     private String cardType; // alternative art, full art, etc
     private String setFrom; //pokemon card set name where the pokemon is from
 
-    public Pokemon(String cardSprite, String namePoke, String rarity,String cardType,String setPokemon) {
+    public Pokemon(String cardSprite, String namePoke, String numPoke, String rarity,String cardType,String setPokemon) {
         this.cardSprite = cardSprite;
         this.namePoke = namePoke;
+        this.numPoke = numPoke;
         this.rarity = rarity;
         this.cardType = cardType;
         this.setFrom = setPokemon;
     }
 
-    public Pokemon(String cardSprite, String namePoke,String setPokemon) {
-        this(cardSprite, namePoke,"Common","regular",setPokemon);
+    public Pokemon(String cardSprite, String namePoke,String numPoke,String setPokemon) {
+        this(cardSprite, namePoke,numPoke,"Common","regular",setPokemon);
     }
 
     public String getNamePoke() {
         return this.namePoke;
     }
 
+    public String getNumPoke() {
+        return this.numPoke;
+    }
+
     public String getRarity() {
         return this.rarity;
     }
+
+    public String getCardType() {
+        return this.cardType;
+    }    
 
     public String getSetFrom() {
         return this.setFrom;
@@ -33,6 +43,21 @@ public class Pokemon {
 
     public String getCardSprite() {
         return this.cardSprite;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == null) {
+            return false;
+        }
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof Pokemon)) {
+            return false;
+        }
+        Pokemon pokemon = (Pokemon) obj;
+        return pokemon.numPoke.equals(this.numPoke);
     }
 
     @Override
