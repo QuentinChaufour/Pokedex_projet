@@ -61,6 +61,11 @@ public class Pokemon {
     }
 
     @Override
+    public int hashCode() {
+        return numPoke.hashCode();
+    }
+
+    @Override
     public String toString() {
         return "Pokemon " +
                 "namePoke='" + namePoke + '\'' +

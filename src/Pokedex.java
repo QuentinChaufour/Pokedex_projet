@@ -22,10 +22,9 @@ import javax.swing.JPanel;
 
 
 
-
 public class Pokedex{
     
-    private Map<String,List<Pokemon>> allPokemons;
+    private final Map<String,List<Pokemon>> allPokemons;
 
     /**
      * Create the GUI for the Pokedex
