@@ -3,16 +3,14 @@ import com.google.gson.GsonBuilder;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.GridLayout;
-import java.awt.Toolkit;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IO;
+//import java.io.IO;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -105,39 +103,39 @@ public class Pokedex{
         int count = 0;
 
         try{
-            FileWriter fileWriter = new FileWriter(file);
-            fileWriter.write("[\n");
-            String[] images = this.getAllImages();
-            for (String imageName : images) {
-
-                count++;
-                //split the image name to get the pokemon caracteristics
-                String[] imageNameSplit = imageName.split("_");
-                String numPoke = imageNameSplit[0];
-                String pokemonName = imageNameSplit[1];
-                String rarity = imageNameSplit[2];
-                String pokemonTypeofCard = imageNameSplit[3];
-                String pokemonSet = imageNameSplit[4];
-
-                Pokemon pokemon = new Pokemon(imageName, pokemonName, numPoke, rarity,pokemonTypeofCard,pokemonSet);
-
-                fileWriter.write(gson.toJson(pokemon));
-                if(count < images.length){
-                    fileWriter.write(",\n");
+            try (FileWriter fileWriter = new FileWriter(file)) {
+                fileWriter.write("[\n");
+                String[] images = this.getAllImages();
+                for (String imageName : images) {
+                    
+                    count++;
+                    //split the image name to get the pokemon caracteristics
+                    String[] imageNameSplit = imageName.split("_");
+                    String numPoke = imageNameSplit[0];
+                    String pokemonName = imageNameSplit[1];
+                    String rarity = imageNameSplit[2];
+                    String pokemonTypeofCard = imageNameSplit[3];
+                    String pokemonSet = imageNameSplit[4];
+                    
+                    Pokemon pokemon = new Pokemon(imageName, pokemonName, numPoke, rarity,pokemonTypeofCard,pokemonSet);
+                    
+                    fileWriter.write(gson.toJson(pokemon));
+                    if(count < images.length){
+                        fileWriter.write(",\n");
+                    }
+                    
+                    if(allPokemonCards.containsKey(pokemon.getNumPoke())){
+                        allPokemonCards.get(pokemon.getNumPoke()).add(pokemon);
+                    }else{
+                        List<Pokemon> list = new ArrayList<>();
+                        list.add(pokemon);
+                        allPokemonCards.put(pokemon.getNumPoke(),list);
+                    }
                 }
-
-                if(allPokemonCards.containsKey(pokemon.getNumPoke())){
-                    allPokemonCards.get(pokemon.getNumPoke()).add(pokemon);
-                }else{
-                    List<Pokemon> list = new ArrayList<>();
-                    list.add(pokemon);
-                    allPokemonCards.put(pokemon.getNumPoke(),list);
-                }
+                fileWriter.write("\n]");
             }
-            fileWriter.write("\n]");
-            fileWriter.close();
             }catch (IOException e) {
-                e.printStackTrace();
+                System.err.println("Error writing to file: " + e.getMessage());
             }
         return allPokemonCards;
     }
@@ -238,12 +236,7 @@ public class Pokedex{
         //backButton.setBounds(frame.getWidth()-200,frame.getHeight() -200, 100, 100);
         
         panelCard2.add(backButton,BorderLayout.CENTER);
-        backButton.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-               paintHomeIU(frame);
-            }
-        });
+        backButton.addActionListener(e -> paintHomeIU(frame)); // afficher la page d'accueil
 
         
         frame.repaint();
@@ -262,6 +255,7 @@ public class Pokedex{
             Pokemon[] pokemons = gson.fromJson(fileReader, Pokemon[].class);
 
             for(Pokemon pokemon : pokemons){
+                System.out.println(pokemon);
                 if(allJsonPokemons.containsKey(pokemon.getNumPoke())){
                     allJsonPokemons.get(pokemon.getNumPoke()).add(pokemon);
                 }else{
