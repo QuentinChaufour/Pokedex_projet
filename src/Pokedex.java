@@ -1,3 +1,6 @@
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridLayout;
@@ -6,6 +9,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,6 +36,7 @@ public class Pokedex{
     public Pokedex(){
         
         this.allPokemons = this.createPokemons();
+
         
         //System.out.println(this.allPokemons);
 
@@ -68,29 +73,66 @@ public class Pokedex{
      */
     public Map<String,List<Pokemon>> createPokemons(){
 
-        Map<String,List<Pokemon>> allPokemonCards = new HashMap<>();
+        File directoryPath = new File(String.join(File.pathSeparator,"Card_Img"));
+        String contents[] = directoryPath.list();
 
-        String[] images = this.getAllImages();
-        for (String imageName : images) {
+        boolean existingJsonFile = false;
 
-            //split the image name to get the pokemon caracteristics
-            String[] imageNameSplit = imageName.split("_");
-            String numPoke = imageNameSplit[0];
-            String pokemonName = imageNameSplit[1];
-            String rarity = imageNameSplit[2];
-            String pokemonTypeofCard = imageNameSplit[3];
-            String pokemonSet = imageNameSplit[4];
-
-            Pokemon pokemon = new Pokemon(imageName, pokemonName, numPoke, rarity,pokemonTypeofCard,pokemonSet);
-
-            if(allPokemonCards.containsKey(pokemon.getNumPoke())){
-                allPokemonCards.get(pokemon.getNumPoke()).add(pokemon);
-            }else{
-                List<Pokemon> list = new ArrayList<>();
-                list.add(pokemon);
-                allPokemonCards.put(pokemon.getNumPoke(),list);
+        for (String content : contents) {
+            if(content.equals("cardsStored.json")){
+                existingJsonFile = true;
+                break;
             }
         }
+
+        if(existingJsonFile){
+            return this.loadPokemonFromJson();
+        }
+
+        Map<String,List<Pokemon>> allPokemonCards = new HashMap<>();
+
+        GsonBuilder builder = new GsonBuilder();
+        builder.setPrettyPrinting().create();
+        Gson gson = builder.create();
+
+        File file = new File("cards.json");
+        int count = 0;
+
+        try{
+            FileWriter fileWriter = new FileWriter(file);
+            fileWriter.write("[\n");
+            String[] images = this.getAllImages();
+            for (String imageName : images) {
+
+                count++;
+                //split the image name to get the pokemon caracteristics
+                String[] imageNameSplit = imageName.split("_");
+                String numPoke = imageNameSplit[0];
+                String pokemonName = imageNameSplit[1];
+                String rarity = imageNameSplit[2];
+                String pokemonTypeofCard = imageNameSplit[3];
+                String pokemonSet = imageNameSplit[4];
+
+                Pokemon pokemon = new Pokemon(imageName, pokemonName, numPoke, rarity,pokemonTypeofCard,pokemonSet);
+
+                fileWriter.write(gson.toJson(pokemon));
+                if(count < images.length){
+                    fileWriter.write(",\n");
+                }
+
+                if(allPokemonCards.containsKey(pokemon.getNumPoke())){
+                    allPokemonCards.get(pokemon.getNumPoke()).add(pokemon);
+                }else{
+                    List<Pokemon> list = new ArrayList<>();
+                    list.add(pokemon);
+                    allPokemonCards.put(pokemon.getNumPoke(),list);
+                }
+            }
+            fileWriter.write("\n]");
+            fileWriter.close();
+            }catch (IOException e) {
+                e.printStackTrace();
+            }
         return allPokemonCards;
     }
 
@@ -196,5 +238,13 @@ public class Pokedex{
         frame.repaint();
 
         frame.setVisible(true);
+    }
+
+    public Map<String,List<Pokemon>> loadPokemonFromJson(){
+        return null;
+    }
+
+    public void writePokemonToJson(Pokemon pokemon){
+        
     }
 }
