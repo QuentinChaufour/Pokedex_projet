@@ -3,7 +3,10 @@ import com.google.gson.GsonBuilder;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.GridLayout;
+import java.awt.Panel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
@@ -16,6 +19,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Flow;
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -23,6 +27,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JScrollBar;
+import javax.swing.JScrollPane;
 
 
 
@@ -38,15 +44,10 @@ public class Pokedex{
         
         this.allPokemons = this.createPokemons();
 
-        
-        //System.out.println(this.allPokemons);
-
         JFrame frame = new JFrame("The Pokedex App V1.0");
-        //Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
-        //frame.setSize(size);
-
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new BorderLayout());
 
         ImageIcon icon = new ImageIcon("logo.png");
         frame.setIconImage(icon.getImage());
@@ -149,8 +150,13 @@ public class Pokedex{
 
         frame.setTitle("The Pokedex App V1.0");
 
+        JPanel panelTop = new JPanel();
+        panelTop.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+        panelTop.setBackground(Color.BLUE);
+        frame.add(panelTop, BorderLayout.NORTH);
+
         JPanel panel = new JPanel();
-        panel.setSize(frame.getWidth() - 300, frame.getHeight() - 300);
+        //panel.setSize(frame.getWidth() - 300, frame.getHeight() - 300);
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(2, 3));
         frame.add(panel, BorderLayout.CENTER);
@@ -198,13 +204,13 @@ public class Pokedex{
         frame.setTitle("All existng cards for " + allPokemons.get(pokemonNumber).get(0).getNamePoke());
         
         JPanel panelCard = new JPanel();
-        JPanel panelCard2 = new JPanel();
+        panelCard.setLayout(new GridLayout(3,3));
+        JPanel panelCardDown = new JPanel();
 
         panelCard.setSize(frame.getSize());
         panelCard.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-        panelCard.setLayout(new GridLayout(2, 3));
-        frame.add(panelCard, BorderLayout.NORTH);
-        frame.add(panelCard2, BorderLayout.SOUTH);
+        panelCard.setAutoscrolls(true);
+        panelCard.setLayout(new FlowLayout(FlowLayout.LEADING));
 
         for (Pokemon pokemon : this.allPokemons.get(pokemonNumber)) {
 
@@ -229,17 +235,25 @@ public class Pokedex{
             }    
         }
         JButton backButton = new JButton("Back");
-        backButton.setBorder(BorderFactory.createLineBorder(Color.red,3));
-        backButton.setSize(200,100);
+        //backButton.setBorder(BorderFactory.createLineBorder(Color.red,3));
+        //backButton.setBounds(50, 50, 200, 100);
         backButton.setVerticalAlignment(JButton.BOTTOM);
         backButton.setHorizontalAlignment(JButton.RIGHT);
         //backButton.setBounds(frame.getWidth()-200,frame.getHeight() -200, 100, 100);
         
-        panelCard2.add(backButton,BorderLayout.CENTER);
+        panelCardDown.add(backButton,BorderLayout.CENTER);
         backButton.addActionListener(e -> paintHomeIU(frame)); // afficher la page d'accueil
 
         
         frame.repaint();
+        frame.revalidate();
+
+        JScrollPane scrollPane = new JScrollPane(panelCard);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+
+        frame.add(scrollPane, BorderLayout.CENTER);
+        frame.add(panelCardDown, BorderLayout.SOUTH);
 
         frame.setVisible(true);
     }
@@ -255,7 +269,6 @@ public class Pokedex{
             Pokemon[] pokemons = gson.fromJson(fileReader, Pokemon[].class);
 
             for(Pokemon pokemon : pokemons){
-                System.out.println(pokemon);
                 if(allJsonPokemons.containsKey(pokemon.getNumPoke())){
                     allJsonPokemons.get(pokemon.getNumPoke()).add(pokemon);
                 }else{
