@@ -3,6 +3,6 @@
         "src"
     ],
     "java.project.referencedLibraries": [
-        "src\\gson-2.10.1.jar"
+        "src\\gson-2.11.0.jar"
     ]
 }

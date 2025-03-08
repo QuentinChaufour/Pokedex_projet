@@ -2,6 +2,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
@@ -9,7 +10,9 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IO;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -41,8 +44,10 @@ public class Pokedex{
         //System.out.println(this.allPokemons);
 
         JFrame frame = new JFrame("The Pokedex App V1.0");
-        Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
-        frame.setSize(size);
+        //Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
+        //frame.setSize(size);
+
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         ImageIcon icon = new ImageIcon("logo.png");
@@ -73,14 +78,15 @@ public class Pokedex{
      */
     public Map<String,List<Pokemon>> createPokemons(){
 
-        File directoryPath = new File(String.join(File.pathSeparator,"Card_Img"));
-        String contents[] = directoryPath.list();
+        File jsonFile = new File(String.join(File.pathSeparator,"."));
+        String jsonContents[] = jsonFile.list();
 
         boolean existingJsonFile = false;
 
-        for (String content : contents) {
+        for (String content : jsonContents) {
             if(content.equals("cardsStored.json")){
                 existingJsonFile = true;
+                System.out.println("Json file already exist");
                 break;
             }
         }
@@ -95,7 +101,7 @@ public class Pokedex{
         builder.setPrettyPrinting().create();
         Gson gson = builder.create();
 
-        File file = new File("cards.json");
+        File file = new File("cardsStored.json");
         int count = 0;
 
         try{
@@ -146,7 +152,7 @@ public class Pokedex{
         frame.setTitle("The Pokedex App V1.0");
 
         JPanel panel = new JPanel();
-        panel.setSize(frame.getSize());
+        panel.setSize(frame.getWidth() - 300, frame.getHeight() - 300);
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(2, 3));
         frame.add(panel, BorderLayout.CENTER);
@@ -164,6 +170,7 @@ public class Pokedex{
                 picLabel.setText(pokemon.getNamePoke());
                 picLabel.setHorizontalTextPosition(JLabel.CENTER);
                 picLabel.setVerticalTextPosition(JLabel.BOTTOM);
+                picLabel.setIconTextGap(10);
                 panel.add(picLabel,0);
                 picLabel.addMouseListener(new MouseAdapter() {
                     @Override
@@ -184,23 +191,22 @@ public class Pokedex{
 
     }
 
-
     public void createPokemonFrame(JFrame frame,String pokemonNumber){
 
         frame.getContentPane().removeAll();
         frame.repaint();
         frame.revalidate();
 
-        frame.setTitle("All existng cards for" + allPokemons.get(pokemonNumber).get(0).getNamePoke());
+        frame.setTitle("All existng cards for " + allPokemons.get(pokemonNumber).get(0).getNamePoke());
         
         JPanel panelCard = new JPanel();
+        JPanel panelCard2 = new JPanel();
+
         panelCard.setSize(frame.getSize());
         panelCard.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panelCard.setLayout(new GridLayout(2, 3));
-        frame.add(panelCard, BorderLayout.CENTER);
-
-        JLabel label = new JLabel("The first pokemon IMAGE");
-        frame.add(label,BorderLayout.CENTER);
+        frame.add(panelCard, BorderLayout.NORTH);
+        frame.add(panelCard2, BorderLayout.SOUTH);
 
         for (Pokemon pokemon : this.allPokemons.get(pokemonNumber)) {
 
@@ -210,7 +216,8 @@ public class Pokedex{
                 picLabel.setText(pokemon.getNamePoke() + "\n" + pokemon.getRarity() + "\n" + pokemon.getCardType() + "\n" + pokemon.getSetFrom());
                 picLabel.setHorizontalTextPosition(JLabel.CENTER);
                 picLabel.setVerticalTextPosition(JLabel.BOTTOM);
-                panelCard.add(picLabel,0);
+                picLabel.setIconTextGap(10);
+                panelCard.add(picLabel,BorderLayout.CENTER,0);
                 picLabel.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mouseClicked(MouseEvent e) {
@@ -224,9 +231,13 @@ public class Pokedex{
             }    
         }
         JButton backButton = new JButton("Back");
-        backButton.setSize(100, 50);
-        //backButton.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-        frame.add(backButton,BorderLayout.EAST,1);
+        backButton.setBorder(BorderFactory.createLineBorder(Color.red,3));
+        backButton.setSize(200,100);
+        backButton.setVerticalAlignment(JButton.BOTTOM);
+        backButton.setHorizontalAlignment(JButton.RIGHT);
+        //backButton.setBounds(frame.getWidth()-200,frame.getHeight() -200, 100, 100);
+        
+        panelCard2.add(backButton,BorderLayout.CENTER);
         backButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -241,10 +252,29 @@ public class Pokedex{
     }
 
     public Map<String,List<Pokemon>> loadPokemonFromJson(){
-        return null;
-    }
 
-    public void writePokemonToJson(Pokemon pokemon){
-        
+        Map<String,List<Pokemon>> allJsonPokemons = new HashMap<>();
+
+        File jsonFile = new File("cardsStored.json");
+        try {
+            FileReader fileReader = new FileReader(jsonFile);
+            Gson gson = new Gson();
+            Pokemon[] pokemons = gson.fromJson(fileReader, Pokemon[].class);
+
+            for(Pokemon pokemon : pokemons){
+                if(allJsonPokemons.containsKey(pokemon.getNumPoke())){
+                    allJsonPokemons.get(pokemon.getNumPoke()).add(pokemon);
+                }else{
+                    List<Pokemon> list = new ArrayList<>();
+                    list.add(pokemon);
+                    allJsonPokemons.put(pokemon.getNumPoke(),list);
+                }
+            }
+
+        } catch (IOException e) {
+        }
+
+        System.out.println("loading Json");
+        return allJsonPokemons;
     }
 }
