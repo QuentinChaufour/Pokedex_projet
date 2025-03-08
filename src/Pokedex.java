@@ -14,6 +14,7 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -43,47 +44,11 @@ public class Pokedex{
         ImageIcon icon = new ImageIcon("logo.png");
         frame.setIconImage(icon.getImage());
 
+        this.paintHomeIU(frame);
+
+
         
-        JPanel panel = new JPanel();
-        panel.setSize(size);
-        panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-        panel.setLayout(new GridLayout(2, 3));
-        frame.add(panel, BorderLayout.CENTER);
         
-        //JButton button = new JButton("Click me!");
-        //panel.add(button);
-        
-        JLabel label = new JLabel("The first pokemon IMAGE");
-        panel.add(label,BorderLayout.CENTER);
-
-        for (String pokemonNumber : this.allPokemons.keySet()) {
-
-            Pokemon pokemon = this.allPokemons.get(pokemonNumber).get(0);
-
-            try {                
-                BufferedImage image = ImageIO.read(new File(String.join(File.separator,"Card_Img",pokemon.getCardSprite())));
-                JLabel picLabel = new JLabel(new ImageIcon(image));
-                picLabel.setText(pokemon.getNamePoke());
-                picLabel.setHorizontalTextPosition(JLabel.CENTER);
-                picLabel.setVerticalTextPosition(JLabel.BOTTOM);
-                panel.add(picLabel,0);
-                picLabel.addMouseListener(new MouseAdapter() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
-                        //frame.setVisible(false);
-                        createPokemonFrame(frame,pokemonNumber);
-                        //frame.setVisible(true);
-                    }
-                });
-            }catch (IOException ex) {
-                System.out.println(String.join(File.separator,"Card_Img",pokemon.getCardSprite()));
-            }    
-        }
-
-
-        //frame.pack();
-        frame.setVisible(true);
-
     }
 
     /**
@@ -115,7 +80,7 @@ public class Pokedex{
             String pokemonName = imageNameSplit[1];
             String rarity = imageNameSplit[2];
             String pokemonTypeofCard = imageNameSplit[3];
-            String pokemonSet = imageNameSplit[4].substring(0, imageNameSplit[4].length() - 4);
+            String pokemonSet = imageNameSplit[4];
 
             Pokemon pokemon = new Pokemon(imageName, pokemonName, numPoke, rarity,pokemonTypeofCard,pokemonSet);
 
@@ -130,27 +95,32 @@ public class Pokedex{
         return allPokemonCards;
     }
 
-    public void createPokemonFrame(JFrame frame,String pokemonNumber){
+    public void paintHomeIU(JFrame frame){
 
+        
         frame.getContentPane().removeAll();
         frame.repaint();
         frame.revalidate();
-        
+
+        frame.setTitle("The Pokedex App V1.0");
+
         JPanel panel = new JPanel();
         panel.setSize(frame.getSize());
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(2, 3));
         frame.add(panel, BorderLayout.CENTER);
-
+        
         JLabel label = new JLabel("The first pokemon IMAGE");
-        frame.add(label,BorderLayout.CENTER);
+        panel.add(label,BorderLayout.CENTER);
 
-        for (Pokemon pokemon : this.allPokemons.get(pokemonNumber)) {
+        for (String pokemonNumber : this.allPokemons.keySet()) {
+
+            Pokemon pokemon = this.allPokemons.get(pokemonNumber).get(0);
 
             try {                
                 BufferedImage image = ImageIO.read(new File(String.join(File.separator,"Card_Img",pokemon.getCardSprite())));
                 JLabel picLabel = new JLabel(new ImageIcon(image));
-                picLabel.setText(pokemon.getNamePoke() + "\n" + pokemon.getRarity() + "\n" + pokemon.getCardType() + "\n" + pokemon.getSetFrom());
+                picLabel.setText(pokemon.getNamePoke());
                 picLabel.setHorizontalTextPosition(JLabel.CENTER);
                 picLabel.setVerticalTextPosition(JLabel.BOTTOM);
                 panel.add(picLabel,0);
@@ -167,5 +137,65 @@ public class Pokedex{
             }    
         }
 
+
+        frame.repaint();
+        frame.setVisible(true);
+
+    }
+
+
+    public void createPokemonFrame(JFrame frame,String pokemonNumber){
+
+        frame.getContentPane().removeAll();
+        frame.repaint();
+        frame.revalidate();
+
+        frame.setTitle("All existng cards for" + allPokemons.get(pokemonNumber).get(0).getNamePoke());
+        
+        JPanel panelCard = new JPanel();
+        panelCard.setSize(frame.getSize());
+        panelCard.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+        panelCard.setLayout(new GridLayout(2, 3));
+        frame.add(panelCard, BorderLayout.CENTER);
+
+        JLabel label = new JLabel("The first pokemon IMAGE");
+        frame.add(label,BorderLayout.CENTER);
+
+        for (Pokemon pokemon : this.allPokemons.get(pokemonNumber)) {
+
+            try {                
+                BufferedImage image = ImageIO.read(new File(String.join(File.separator,"Card_Img",pokemon.getCardSprite())));
+                JLabel picLabel = new JLabel(new ImageIcon(image));
+                picLabel.setText(pokemon.getNamePoke() + "\n" + pokemon.getRarity() + "\n" + pokemon.getCardType() + "\n" + pokemon.getSetFrom());
+                picLabel.setHorizontalTextPosition(JLabel.CENTER);
+                picLabel.setVerticalTextPosition(JLabel.BOTTOM);
+                panelCard.add(picLabel,0);
+                picLabel.addMouseListener(new MouseAdapter() {
+                    @Override
+                    public void mouseClicked(MouseEvent e) {
+                        //frame.setVisible(false);
+                        createPokemonFrame(frame,pokemonNumber);
+                        //frame.setVisible(true);
+                    }
+                });
+            }catch (IOException ex) {
+                System.out.println(String.join(File.separator,"Card_Img",pokemon.getCardSprite()));
+            }    
+        }
+        JButton backButton = new JButton("Back");
+        backButton.setSize(100, 50);
+        //backButton.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        frame.add(backButton,BorderLayout.EAST,1);
+        backButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+               paintHomeIU(frame);
+            }
+        });
+
+        
+        frame.repaint();
+
+        frame.setVisible(true);
     }
 }
