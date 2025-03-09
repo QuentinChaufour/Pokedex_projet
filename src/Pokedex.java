@@ -3,10 +3,7 @@ import com.google.gson.GsonBuilder;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
-import java.awt.Panel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
@@ -19,7 +16,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.Flow;
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -27,7 +23,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 
 
@@ -204,13 +199,11 @@ public class Pokedex{
         frame.setTitle("All existng cards for " + allPokemons.get(pokemonNumber).get(0).getNamePoke());
         
         JPanel panelCard = new JPanel();
-        panelCard.setLayout(new GridLayout(3,3));
+        int lignes = Math.abs(this.allPokemons.get(pokemonNumber).size()/4) + 1;
+        panelCard.setLayout(new GridLayout(lignes,1));
         JPanel panelCardDown = new JPanel();
 
-        panelCard.setSize(frame.getSize());
         panelCard.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-        panelCard.setAutoscrolls(true);
-        panelCard.setLayout(new FlowLayout(FlowLayout.LEADING));
 
         for (Pokemon pokemon : this.allPokemons.get(pokemonNumber)) {
 
@@ -251,6 +244,7 @@ public class Pokedex{
         JScrollPane scrollPane = new JScrollPane(panelCard);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        scrollPane.getVerticalScrollBar().setUnitIncrement(20); //speed up the scroll
 
         frame.add(scrollPane, BorderLayout.CENTER);
         frame.add(panelCardDown, BorderLayout.SOUTH);
