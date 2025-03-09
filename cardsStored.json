@@ -42,6 +42,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "101_Electrode_Holo_JU_1.jpg",
+  "namePoke": "Electrode",
+  "numPoke": 101,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "101_Electrode_Rare_BS_1.jpg",
   "namePoke": "Electrode",
   "numPoke": 101,
@@ -49,11 +56,46 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "102_Exeggcute_Common_JU_1.jpg",
+  "namePoke": "Exeggcute",
+  "numPoke": 102,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "103_Exeggutor_Uncommon_JU_1.jpg",
+  "namePoke": "Exeggutor",
+  "numPoke": 103,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "104_Cubone_Common_JU_1.jpg",
+  "namePoke": "Cubone",
+  "numPoke": 104,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "105_Marowak_Uncommon_JU_1.jpg",
+  "namePoke": "Marowak",
+  "numPoke": 105,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "107_Hitmonchan_Holo_BS_1.jpg",
   "namePoke": "Hitmonchan",
   "numPoke": 107,
   "rarity": "Holo",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "108_Lickitung_Uncommon_JU_1.jpg",
+  "namePoke": "Lickitung",
+  "numPoke": 108,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "109_Koffing_Common_BS_1.jpg",
@@ -161,6 +203,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "1111_Poke Ball_Common_JU_1.jpg",
+  "namePoke": "Poke Ball",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "1111_Pokedex_Uncommon_BS_1.jpg",
   "namePoke": "Pokedex",
   "numPoke": 1111,
@@ -252,6 +301,20 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "111_Rhyhorn_Common_JU_1.jpg",
+  "namePoke": "Rhyhorn",
+  "numPoke": 111,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "112_Rhydon_Uncommon_JU_1.jpg",
+  "namePoke": "Rhydon",
+  "numPoke": 112,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "113_Chansey_Holo_BS_1.jpg",
   "namePoke": "Chansey",
   "numPoke": 113,
@@ -266,6 +329,27 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "115_Kangaskhan_Holo_JU_1.jpg",
+  "namePoke": "Kangaskhan",
+  "numPoke": 115,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "118_Goldeen_Common_JU_1.jpg",
+  "namePoke": "Goldeen",
+  "numPoke": 118,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "119_Seaking_Uncommon_JU_1.jpg",
+  "namePoke": "Seaking",
+  "numPoke": 119,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "120_Staryu_Common_BS_1.jpg",
   "namePoke": "Staryu",
   "numPoke": 120,
@@ -278,6 +362,20 @@
   "numPoke": 121,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "122_Mr. Mime_Holo_JU_1.jpg",
+  "namePoke": "Mr. Mime",
+  "numPoke": 122,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "123_Scyther_Holo_JU_1.jpg",
+  "namePoke": "Scyther",
+  "numPoke": 123,
+  "rarity": "Holo",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "124_Jynx_Uncommon_BS_1.jpg",
@@ -301,11 +399,32 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "127_Pinsir_Holo_JU_1.jpg",
+  "namePoke": "Pinsir",
+  "numPoke": 127,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "128_Tauros_Uncommon_JU_1.jpg",
+  "namePoke": "Tauros",
+  "numPoke": 128,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "129_Magikarp_Uncommon_BS_1.jpg",
   "namePoke": "Magikarp",
   "numPoke": 129,
   "rarity": "Uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "12_Butterfree_Uncommon_JU_1.jpg",
+  "namePoke": "Butterfree",
+  "numPoke": 12,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "130_Gyarados_Holo_BS_1.jpg",
@@ -315,11 +434,46 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "133_Eevee_Common_JU_1.jpg",
+  "namePoke": "Eevee",
+  "numPoke": 133,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "134_Vaporeon_Holo_JU_1.jpg",
+  "namePoke": "Vaporeon",
+  "numPoke": 134,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "135_Jolteon_Holo_JU_1.jpg",
+  "namePoke": "Jolteon",
+  "numPoke": 135,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "136_Flareon_Holo_JU_1.jpg",
+  "namePoke": "Flareon",
+  "numPoke": 136,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "137_Porygon_Uncommon_BS_1.jpg",
   "namePoke": "Porygon",
   "numPoke": 137,
   "rarity": "Uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "143_Snorlax_Holo_JU_1.jpg",
+  "namePoke": "Snorlax",
+  "numPoke": 143,
+  "rarity": "Holo",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "145_Zapdos_Holo_BS_1.jpg",
@@ -364,6 +518,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "18_Pidgeot_Holo_JU_1.jpg",
+  "namePoke": "Pidgeot",
+  "numPoke": 18,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "19_Rattata_Common_BS_1.jpg",
   "namePoke": "Rattata",
   "numPoke": 19,
@@ -385,11 +546,32 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "21_Spearow_Common_JU_1.jpg",
+  "namePoke": "Spearow",
+  "numPoke": 21,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "22_Fearow_Uncommon_JU_1.jpg",
+  "namePoke": "Fearow",
+  "numPoke": 22,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "25_Pikachu_Common_BS_1.jpg",
   "namePoke": "Pikachu",
   "numPoke": 25,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "25_Pikachu_Common_JU_1.jpg",
+  "namePoke": "Pikachu",
+  "numPoke": 25,
+  "rarity": "Common",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "26_Raichu_Holo_BS_1.jpg",
@@ -406,11 +588,32 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "29_Nidoran_Common_JU_1.jpg",
+  "namePoke": "Nidoran",
+  "numPoke": 29,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "2_Ivysaur_uncommon_BS_1.jpg",
   "namePoke": "Ivysaur",
   "numPoke": 2,
   "rarity": "uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "30_Nidorina_Uncommon_JU_1.jpg",
+  "namePoke": "Nidorina",
+  "numPoke": 30,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "31_Nidoqueen_Holo_JU_1.jpg",
+  "namePoke": "Nidoqueen",
+  "numPoke": 31,
+  "rarity": "Holo",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "32_Nidoran_Common_BS_1.jpg",
@@ -441,6 +644,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "36_Clefable_Holo_JU_1.jpg",
+  "namePoke": "Clefable",
+  "numPoke": 36,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "37_Vulpix_Common_BS_1.jpg",
   "namePoke": "Vulpix",
   "numPoke": 37,
@@ -455,11 +665,74 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "39_Jigglypuff_Common_JU_1.jpg",
+  "namePoke": "Jigglypuff",
+  "numPoke": 39,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "3_Venusaur_holo_BS_1.jpg",
   "namePoke": "Venusaur",
   "numPoke": 3,
   "rarity": "holo",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "40_Wigglytuff_Holo_JU_1.jpg",
+  "namePoke": "Wigglytuff",
+  "numPoke": 40,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "43_Oddish_Common_JU_1.jpg",
+  "namePoke": "Oddish",
+  "numPoke": 43,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "44_Gloom-Uncommon_JU_1.jpg",
+  "namePoke": "Gloom-Uncommon",
+  "numPoke": 44,
+  "rarity": "JU",
+  "setFrom": "1.jpg"
+},
+{
+  "cardSprite": "45_Vileplume_Holo_JU_1.jpg",
+  "namePoke": "Vileplume",
+  "numPoke": 45,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "46_Paras_Common_JU_1.jpg",
+  "namePoke": "Paras",
+  "numPoke": 46,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "47_Parasect_Uncommon_JU_1.jpg",
+  "namePoke": "Parasect",
+  "numPoke": 47,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "48_Venonat_Common_JU_1.jpg",
+  "namePoke": "Venonat",
+  "numPoke": 48,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "49_Venomoth_Holo_JU_1.jpg",
+  "namePoke": "Venomoth",
+  "numPoke": 49,
+  "rarity": "Holo",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "4_Charmander_Common_BS_1.jpg",
@@ -481,6 +754,34 @@
   "numPoke": 51,
   "rarity": "Rare",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "52_Meowth_Common_JU_1.jpg",
+  "namePoke": "Meowth",
+  "numPoke": 52,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "53_Persian_Uncommon_Ju_1.jpg",
+  "namePoke": "Persian",
+  "numPoke": 53,
+  "rarity": "Uncommon",
+  "setFrom": "Ju"
+},
+{
+  "cardSprite": "56_Mankey_Common_JU_1.jpg",
+  "namePoke": "Mankey",
+  "numPoke": 56,
+  "rarity": "Common",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "57_Primeape_Uncommon_JU_1.jpg",
+  "namePoke": "Primeape",
+  "numPoke": 57,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "58_Growlithe_Uncommon_BS_1.jpg",
@@ -565,6 +866,13 @@
   "numPoke": 68,
   "rarity": "Holo",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "69_Bellsprout_Common_JU_1.jpg",
+  "namePoke": "Bellsprout",
+  "numPoke": 69,
+  "rarity": "Common",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "6_Charizard_common_McDonaldDragonDiscovery_1.png",
@@ -665,6 +973,27 @@
   "setFrom": "Generations"
 },
 {
+  "cardSprite": "70_Weepinbell_Uncommon_JU_1.jpg",
+  "namePoke": "Weepinbell",
+  "numPoke": 70,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "71_Victreebel_Holo_JU_1.jpg",
+  "namePoke": "Victreebel",
+  "numPoke": 71,
+  "rarity": "Holo",
+  "setFrom": "JU"
+},
+{
+  "cardSprite": "76_Rapidash_Uncommon_JU_1.jpg",
+  "namePoke": "Rapidash",
+  "numPoke": 76,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
+},
+{
   "cardSprite": "77_Ponyta_Common_BS_1.jpg",
   "namePoke": "Ponyta",
   "numPoke": 77,
@@ -705,6 +1034,13 @@
   "numPoke": 84,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "85_Dodrio_Uncommon_JU_1.jpg",
+  "namePoke": "Dodrio",
+  "numPoke": 85,
+  "rarity": "Uncommon",
+  "setFrom": "JU"
 },
 {
   "cardSprite": "86_Seel_Uncommon_BS_1.jpg",

@@ -1,8 +1,7 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
@@ -402,7 +401,6 @@ public class Pokedex{
 
         } catch (IOException e) {
         }
-
         System.out.println("loading Json");
         return allJsonPokemons;
     }
