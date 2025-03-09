@@ -1,114 +1,765 @@
 [
 {
-  "cardSprite": "001_bulbasaur_common_BS_1.jpg",
-  "namePoke": "bulbasaur",
-  "numPoke": "001",
+  "cardSprite": "010_Caterpie_common_BS_1.jpg",
+  "namePoke": "Caterpie",
+  "numPoke": 10,
   "rarity": "common",
   "setFrom": "BS"
 },
 {
-  "cardSprite": "002_Ivysaur_uncommon_BS_1.jpg",
+  "cardSprite": "011_Metapod_common_BS_1.jpg",
+  "namePoke": "Metapod",
+  "numPoke": 11,
+  "rarity": "common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "012_Beedrill_Rare_BS_1.jpg",
+  "namePoke": "Beedrill",
+  "numPoke": 12,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "013_Weedle_common_BS_1.jpg",
+  "namePoke": "Weedle",
+  "numPoke": 13,
+  "rarity": "common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "014_Kakuna_Uncommon_BS_1.jpg",
+  "namePoke": "Kakuna",
+  "numPoke": 14,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "100_Voltorb_Common_BS_1.jpg",
+  "namePoke": "Voltorb",
+  "numPoke": 100,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "101_Electrode_Rare_BS_1.jpg",
+  "namePoke": "Electrode",
+  "numPoke": 101,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "107_Hitmonchan_Holo_BS_1.jpg",
+  "namePoke": "Hitmonchan",
+  "numPoke": 107,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "109_Koffing_Common_BS_1.jpg",
+  "namePoke": "Koffing",
+  "numPoke": 109,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Bill_Common_BS_1.jpg",
+  "namePoke": "Bill",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Clefairy Doll_Rare_BS_1.jpg",
+  "namePoke": "Clefairy Doll",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Computer Search_Rare_BS_1.jpg",
+  "namePoke": "Computer Search",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Defender_Uncommon_BS_1.jpg",
+  "namePoke": "Defender",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Devolution Spray_Rare_BS_1.jpg",
+  "namePoke": "Devolution Spray",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Energy Removal_Common_BS_1.jpg",
+  "namePoke": "Energy Removal",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Energy Retrieval_Uncommon_BS_1.jpg",
+  "namePoke": "Energy Retrieval",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Full Heal_Uncommon_BS_1.jpg",
+  "namePoke": "Full Heal",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Gust of Wind_Common_BS_1.jpg",
+  "namePoke": "Gust of Wind",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Imposter Professor Oak_Rare_BS_1.jpg",
+  "namePoke": "Imposter Professor Oak",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Item Finder_Rare_BS_1.jpg",
+  "namePoke": "Item Finder",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Lass_Rare_BS_1.jpg",
+  "namePoke": "Lass",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Maintenance_Uncommon_BS_1.jpg",
+  "namePoke": "Maintenance",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_PlusPower_Uncommon_BS_1.jpg",
+  "namePoke": "PlusPower",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Pokedex_Uncommon_BS_1.jpg",
+  "namePoke": "Pokedex",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Pokemon Breeder_Rare_BS_1.jpg",
+  "namePoke": "Pokemon Breeder",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Pokemon Center_Uncommon_BS_1.jpg",
+  "namePoke": "Pokemon Center",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Pokemon Flute_Uncommon_BS_1.jpg",
+  "namePoke": "Pokemon Flute",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Pokemon Trader_Rare_BS_1.jpg",
+  "namePoke": "Pokemon Trader",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Potion_BS_1.jpg",
+  "namePoke": "Potion",
+  "numPoke": 1111,
+  "rarity": "BS",
+  "setFrom": "1.jpg"
+},
+{
+  "cardSprite": "1111_Professor Oak_Uncommon_BS_1.jpg",
+  "namePoke": "Professor Oak",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Revive_Uncommon_BS_1.jpg",
+  "namePoke": "Revive",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Scoop Up_Rare_BS_1.jpg",
+  "namePoke": "Scoop Up",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Super Energy Removal_Rare_BS_1.jpg",
+  "namePoke": "Super Energy Removal",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Super Potion_Uncommon_BS_1.jpg",
+  "namePoke": "Super Potion",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Switch_Common_BS_1.jpg",
+  "namePoke": "Switch",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1112_Double Colorless Energy_Uncommon_BS_1.jpg",
+  "namePoke": "Double Colorless Energy",
+  "numPoke": 1112,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "113_Chansey_Holo_BS_1.jpg",
+  "namePoke": "Chansey",
+  "numPoke": 113,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "114_Tangela_Common_BS_1.jpg",
+  "namePoke": "Tangela",
+  "numPoke": 114,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "120_Staryu_Common_BS_1.jpg",
+  "namePoke": "Staryu",
+  "numPoke": 120,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "121_Starmie_Common_BS_1.jpg",
+  "namePoke": "Starmie",
+  "numPoke": 121,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "124_Jynx_Uncommon_BS_1.jpg",
+  "namePoke": "Jynx",
+  "numPoke": 124,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "125_Electabuzz_Rare_BS_1.jpg",
+  "namePoke": "Electabuzz",
+  "numPoke": 125,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "126_Magmar_Uncommon_BS_1.jpg",
+  "namePoke": "Magmar",
+  "numPoke": 126,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "129_Magikarp_Uncommon_BS_1.jpg",
+  "namePoke": "Magikarp",
+  "numPoke": 129,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "130_Gyarados_Holo_BS_1.jpg",
+  "namePoke": "Gyarados",
+  "numPoke": 130,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "137_Porygon_Uncommon_BS_1.jpg",
+  "namePoke": "Porygon",
+  "numPoke": 137,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "145_Zapdos_Holo_BS_1.jpg",
+  "namePoke": "Zapdos",
+  "numPoke": 145,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "147_Dratini_Uncommon_BS_1.jpg",
+  "namePoke": "Dratini",
+  "numPoke": 147,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "148_Dragonair_Rare_BS_1.jpg",
+  "namePoke": "Dragonair",
+  "numPoke": 148,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "150_Mewtwo_Holo_BS_1.jpg",
+  "namePoke": "Mewtwo",
+  "numPoke": 150,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "16_Pidgey_Common_BS_1.jpg",
+  "namePoke": "Pidgey",
+  "numPoke": 16,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "17_Pidgeotto_Rare_BS_1.jpg",
+  "namePoke": "Pidgeotto",
+  "numPoke": 17,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "19_Rattata_Common_BS_1.jpg",
+  "namePoke": "Rattata",
+  "numPoke": 19,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "1_bulbasaur_common_BS_1.jpg",
+  "namePoke": "bulbasaur",
+  "numPoke": 1,
+  "rarity": "common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "20_Raticate_Uncommon_BS_1.jpg",
+  "namePoke": "Raticate",
+  "numPoke": 20,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "25_Pikachu_Common_BS_1.jpg",
+  "namePoke": "Pikachu",
+  "numPoke": 25,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "26_Raichu_Holo_BS_1.jpg",
+  "namePoke": "Raichu",
+  "numPoke": 26,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "27_Sandshrew_Common_BS_1.jpg",
+  "namePoke": "Sandshrew",
+  "numPoke": 27,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "2_Ivysaur_uncommon_BS_1.jpg",
   "namePoke": "Ivysaur",
-  "numPoke": "002",
+  "numPoke": 2,
   "rarity": "uncommon",
   "setFrom": "BS"
 },
 {
-  "cardSprite": "003_Venusaur_rare_baseSet_1.png",
-  "namePoke": "Venusaur",
-  "numPoke": "003",
-  "rarity": "rare",
-  "setFrom": "baseSet"
+  "cardSprite": "32_Nidoran_Common_BS_1.jpg",
+  "namePoke": "Nidoran",
+  "numPoke": 32,
+  "rarity": "Common",
+  "setFrom": "BS"
 },
 {
-  "cardSprite": "006_Charizard_common_McDonaldDragonDiscovery_1.png",
+  "cardSprite": "33_Nidorino_Uncommon_BS_1.jpg",
+  "namePoke": "Nidorino",
+  "numPoke": 33,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "34_Nidoking_Holo_BS_1.jpg",
+  "namePoke": "Nidoking",
+  "numPoke": 34,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "35_Clefairy_Holo_BS_1.jpg",
+  "namePoke": "Clefairy",
+  "numPoke": 35,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "37_Vulpix_Common_BS_1.jpg",
+  "namePoke": "Vulpix",
+  "numPoke": 37,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "38_Ninetales_Holo_BS_1.jpg",
+  "namePoke": "Ninetales",
+  "numPoke": 38,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "3_Venusaur_holo_BS_1.jpg",
+  "namePoke": "Venusaur",
+  "numPoke": 3,
+  "rarity": "holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "4_Charmander_Common_BS_1.jpg",
+  "namePoke": "Charmander",
+  "numPoke": 4,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "50_Diglett_Common_BS_1.jpg",
+  "namePoke": "Diglett",
+  "numPoke": 50,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "51_Dugtrio_Rare_BS_1.jpg",
+  "namePoke": "Dugtrio",
+  "numPoke": 51,
+  "rarity": "Rare",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "58_Growlithe_Uncommon_BS_1.jpg",
+  "namePoke": "Growlithe",
+  "numPoke": 58,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "59_Arcanine_Uncommon_BS_1.jpg",
+  "namePoke": "Arcanine",
+  "numPoke": 59,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "5_Charmeleon_Uncommon_BS_1.jpg",
+  "namePoke": "Charmeleon",
+  "numPoke": 5,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "60_Poliwag_Common_BS_1.jpg",
+  "namePoke": "Poliwag",
+  "numPoke": 60,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "61_Poliwhirl_Uncommon_BS_1.jpg",
+  "namePoke": "Poliwhirl",
+  "numPoke": 61,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "62_Poliwrath_Holo_BS_1.jpg",
+  "namePoke": "Poliwrath",
+  "numPoke": 62,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "63_Abra_Common_BS_1.jpg",
+  "namePoke": "Abra",
+  "numPoke": 63,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "64_Kadabra_Uncommon_BS_1.jpg",
+  "namePoke": "Kadabra",
+  "numPoke": 64,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "65_Alakazam_Holo_BS_1.jpg",
+  "namePoke": "Alakazam",
+  "numPoke": 65,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "66_Machop_Common_BS_1.jpg",
+  "namePoke": "Machop",
+  "numPoke": 66,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "67_Machoke_Uncommon_BS_1.jpg",
+  "namePoke": "Machoke",
+  "numPoke": 67,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "68_Machamp_Holo_BS_1.jpg",
+  "namePoke": "Machamp",
+  "numPoke": 68,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "6_Charizard_common_McDonaldDragonDiscovery_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "common",
   "setFrom": "McDonaldDragonDiscovery"
 },
 {
-  "cardSprite": "006_Charizard_FullArt_HiddenFates_1.png",
+  "cardSprite": "6_Charizard_FullArt_HiddenFates_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "FullArt",
   "setFrom": "HiddenFates"
 },
 {
-  "cardSprite": "006_Charizard_FullArt_ShiningFates_1.png",
+  "cardSprite": "6_Charizard_FullArt_ShiningFates_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "FullArt",
   "setFrom": "ShiningFates"
 },
 {
-  "cardSprite": "006_Charizard_holoRare_baseSet_1.jpg",
+  "cardSprite": "6_Charizard_holoRare_baseSet_1.jpg",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "holoRare",
   "setFrom": "baseSet"
 },
 {
-  "cardSprite": "006_Charizard_Promo_Sun\u0026Moon_1.png",
+  "cardSprite": "6_Charizard_Holo_BS_1.jpg",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "6_Charizard_Promo_Sun\u0026Moon_1.png",
+  "namePoke": "Charizard",
+  "numPoke": 6,
   "rarity": "Promo",
   "setFrom": "Sun\u0026Moon"
 },
 {
-  "cardSprite": "006_Charizard_Promo_Sun\u0026Moon_2.png",
+  "cardSprite": "6_Charizard_Promo_Sun\u0026Moon_2.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "Promo",
   "setFrom": "Sun\u0026Moon"
 },
 {
-  "cardSprite": "006_Charizard_Promo_Sun\u0026Moon_3.png",
+  "cardSprite": "6_Charizard_Promo_Sun\u0026Moon_3.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "Promo",
   "setFrom": "Sun\u0026Moon"
 },
 {
-  "cardSprite": "006_Charizard_rainbow_UnbrokenBonds_1.png",
+  "cardSprite": "6_Charizard_rainbow_UnbrokenBonds_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "rainbow",
   "setFrom": "UnbrokenBonds"
 },
 {
-  "cardSprite": "006_Charizard_rare_PokemonGo_1.png",
+  "cardSprite": "6_Charizard_rare_PokemonGo_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "rare",
   "setFrom": "PokemonGo"
 },
 {
-  "cardSprite": "006_Charizard_RR_PaldeanFates_1.png",
+  "cardSprite": "6_Charizard_RR_PaldeanFates_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "RR",
   "setFrom": "PaldeanFates"
 },
 {
-  "cardSprite": "006_Charizard_tagTeamPromo_Sun\u0026Moon_4.png",
+  "cardSprite": "6_Charizard_tagTeamPromo_Sun\u0026Moon_4.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "tagTeamPromo",
   "setFrom": "Sun\u0026Moon"
 },
 {
-  "cardSprite": "006_Charizard_trainerGallery_LostOrigin_1.png",
+  "cardSprite": "6_Charizard_trainerGallery_LostOrigin_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "trainerGallery",
   "setFrom": "LostOrigin"
 },
 {
-  "cardSprite": "006_Charizard_Uncommon_Generations_1.png",
+  "cardSprite": "6_Charizard_Uncommon_Generations_1.png",
   "namePoke": "Charizard",
-  "numPoke": "006",
+  "numPoke": 6,
   "rarity": "Uncommon",
   "setFrom": "Generations"
+},
+{
+  "cardSprite": "77_Ponyta_Common_BS_1.jpg",
+  "namePoke": "Ponyta",
+  "numPoke": 77,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "7_Squirtle_Common_BS_1.jpg",
+  "namePoke": "Squirtle",
+  "numPoke": 7,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "81_Magnemite_Common_BS_1.jpg",
+  "namePoke": "Magnemite",
+  "numPoke": 81,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "82_Magneton_Holo_BS_1.jpg",
+  "namePoke": "Magneton",
+  "numPoke": 82,
+  "rarity": "Holo",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "83_Farfetch\u0027d_Uncommon_BS_1.jpg",
+  "namePoke": "Farfetch\u0027d",
+  "numPoke": 83,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "84_Doduo_Common_BS_1.jpg",
+  "namePoke": "Doduo",
+  "numPoke": 84,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "86_Seel_Uncommon_BS_1.jpg",
+  "namePoke": "Seel",
+  "numPoke": 86,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "87_Dewgong_Uncommon_BS_1.jpg",
+  "namePoke": "Dewgong",
+  "numPoke": 87,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "8_Wartortle_Uncommon_BS_1.jpg",
+  "namePoke": "Wartortle",
+  "numPoke": 8,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "92_Gastly_Common_BS_1.jpg",
+  "namePoke": "Gastly",
+  "numPoke": 92,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "93_Haunter_Uncommon_BS_1.jpg",
+  "namePoke": "Haunter",
+  "numPoke": 93,
+  "rarity": "Uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "95_Onix_Common_BS_1.jpg",
+  "namePoke": "Onix",
+  "numPoke": 95,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "96_Drowzee_Common_BS_1.jpg",
+  "namePoke": "Drowzee",
+  "numPoke": 96,
+  "rarity": "Common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "9_Blastoise_Holo_BS_1.jpg",
+  "namePoke": "Blastoise",
+  "numPoke": 9,
+  "rarity": "Holo",
+  "setFrom": "BS"
 }
 ]

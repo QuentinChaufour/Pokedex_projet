@@ -2,7 +2,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -25,12 +24,13 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import java.awt.*;
+import java.util.Collections;
 
 
 
 public class Pokedex{
     
-    private final Map<String,List<Pokemon>> allPokemons;
+    private final Map<Integer,List<Pokemon>> allPokemons;
 
     private static final Map<String, String> POKEMON_SETS = new HashMap<>();
     
@@ -178,7 +178,7 @@ public class Pokedex{
      * @return
      * the list of Pokemon
      */
-    public Map<String,List<Pokemon>> createPokemons(){
+    public Map<Integer,List<Pokemon>> createPokemons(){
 
         File jsonFile = new File(String.join(File.pathSeparator,"."));
         String jsonContents[] = jsonFile.list();
@@ -204,7 +204,7 @@ public class Pokedex{
             jsonFileToDelete = null;
         }
 
-        Map<String,List<Pokemon>> allPokemonCards = new HashMap<>();
+        Map<Integer,List<Pokemon>> allPokemonCards = new HashMap<>();
 
         GsonBuilder builder = new GsonBuilder();
         builder.setPrettyPrinting().create();
@@ -229,7 +229,7 @@ public class Pokedex{
                     count++;
                     //split the image name to get the pokemon caracteristics
                     String[] imageNameSplit = imageName.split("_");
-                    String numPoke = imageNameSplit[0];
+                    Integer numPoke = Integer.valueOf(imageNameSplit[0]);
                     String pokemonName = imageNameSplit[1];
                     String rarity = imageNameSplit[2];
                     String pokemonSet = imageNameSplit[3];
@@ -268,14 +268,21 @@ public class Pokedex{
 
         JPanel panelTop = new JPanel();
         panelTop.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-        panelTop.setBackground(Color.BLUE);
         frame.add(panelTop, BorderLayout.NORTH);
+
+        JLabel homeLabel = new JLabel("Welcome to the Pokedex App V1.0 , the app that allows you to see all the existing Pokemon cards");
+        homeLabel.setFont(new Font("Serif", Font.BOLD, 30));
+        panelTop.add(homeLabel);
 
         JPanel panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(Math.abs(this.allPokemons.size()/4), 4,5,50));
 
-        for (String pokemonNumber : this.allPokemons.keySet()) {
+        // Faire que les pokémons soient représenté dans l'ordre du num pokédex
+        List<Integer> sortedKeys = new ArrayList<>(this.allPokemons.keySet());
+        Collections.sort(sortedKeys);
+
+        for (Integer pokemonNumber : sortedKeys){
 
             Pokemon pokemon = this.allPokemons.get(pokemonNumber).get(0);
 
@@ -312,7 +319,7 @@ public class Pokedex{
 
     }
 
-    public void createPokemonFrame(JFrame frame,String pokemonNumber){
+    public void createPokemonFrame(JFrame frame,Integer pokemonNumber){
 
         frame.getContentPane().removeAll();
         frame.repaint();
@@ -373,9 +380,9 @@ public class Pokedex{
         frame.setVisible(true);
     }
 
-    public Map<String,List<Pokemon>> loadPokemonFromJson(){
+    public Map<Integer,List<Pokemon>> loadPokemonFromJson(){
 
-        Map<String,List<Pokemon>> allJsonPokemons = new HashMap<>();
+        Map<Integer,List<Pokemon>> allJsonPokemons = new HashMap<>();
 
         File jsonFile = new File("cardsStored.json");
         try {

@@ -3,11 +3,11 @@
 public class Pokemon {
     private String cardSprite;
     private String namePoke;
-    private String numPoke;
+    private Integer numPoke;
     private String rarity; // common, uncommon, rare, etc
     private String setFrom; //pokemon card set name where the pokemon is from
 
-    public Pokemon(String cardSprite, String namePoke, String numPoke, String rarity,String setPokemon) {
+    public Pokemon(String cardSprite, String namePoke, Integer numPoke, String rarity,String setPokemon) {
         this.cardSprite = cardSprite;
         this.namePoke = namePoke;
         this.numPoke = numPoke;
@@ -15,7 +15,7 @@ public class Pokemon {
         this.setFrom = setPokemon;
     }
 
-    public Pokemon(String cardSprite, String namePoke,String numPoke,String setPokemon) {
+    public Pokemon(String cardSprite, String namePoke,Integer numPoke,String setPokemon) {
         this(cardSprite, namePoke,numPoke,"Common",setPokemon);
     }
 
@@ -23,7 +23,7 @@ public class Pokemon {
         return this.namePoke;
     }
 
-    public String getNumPoke() {
+    public Integer getNumPoke() {
         return this.numPoke;
     }
 
@@ -52,11 +52,6 @@ public class Pokemon {
         }
         Pokemon pokemon = (Pokemon) obj;
         return pokemon.numPoke.equals(this.numPoke);
-    }
-
-    @Override
-    public int hashCode() {
-        return numPoke.hashCode();
     }
 
     @Override
