@@ -5,20 +5,18 @@ public class Pokemon {
     private String namePoke;
     private String numPoke;
     private String rarity; // common, uncommon, rare, etc
-    private String cardType; // alternative art, full art, etc
     private String setFrom; //pokemon card set name where the pokemon is from
 
-    public Pokemon(String cardSprite, String namePoke, String numPoke, String rarity,String cardType,String setPokemon) {
+    public Pokemon(String cardSprite, String namePoke, String numPoke, String rarity,String setPokemon) {
         this.cardSprite = cardSprite;
         this.namePoke = namePoke;
         this.numPoke = numPoke;
         this.rarity = rarity;
-        this.cardType = cardType;
         this.setFrom = setPokemon;
     }
 
     public Pokemon(String cardSprite, String namePoke,String numPoke,String setPokemon) {
-        this(cardSprite, namePoke,numPoke,"Common","regular",setPokemon);
+        this(cardSprite, namePoke,numPoke,"Common",setPokemon);
     }
 
     public String getNamePoke() {
@@ -31,11 +29,7 @@ public class Pokemon {
 
     public String getRarity() {
         return this.rarity;
-    }
-
-    public String getCardType() {
-        return this.cardType;
-    }    
+    } 
 
     public String getSetFrom() {
         return this.setFrom;
@@ -70,7 +64,6 @@ public class Pokemon {
         return "Pokemon " +
                 "namePoke='" + namePoke + '\'' +
                 ", rarity='" + rarity + '\'' +
-                ", cardType='" + cardType + '\'' +
                 ", setFrom='" + setFrom;
     }
 

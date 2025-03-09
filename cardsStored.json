@@ -1,114 +1,114 @@
 [
 {
-  "cardSprite": "003_venusaur_rare_regular_baseSet_1.png",
-  "namePoke": "venusaur",
+  "cardSprite": "001_bulbasaur_common_BS_1.jpg",
+  "namePoke": "bulbasaur",
+  "numPoke": "001",
+  "rarity": "common",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "002_Ivysaur_uncommon_BS_1.jpg",
+  "namePoke": "Ivysaur",
+  "numPoke": "002",
+  "rarity": "uncommon",
+  "setFrom": "BS"
+},
+{
+  "cardSprite": "003_Venusaur_rare_baseSet_1.png",
+  "namePoke": "Venusaur",
   "numPoke": "003",
   "rarity": "rare",
-  "cardType": "regular",
   "setFrom": "baseSet"
 },
 {
-  "cardSprite": "006_charizard_common_promo_Sun\u0026Moon_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_common_McDonaldDragonDiscovery_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
   "rarity": "common",
-  "cardType": "promo",
-  "setFrom": "Sun\u0026Moon"
-},
-{
-  "cardSprite": "006_charizard_common_promo_Sun\u0026Moon_2.png",
-  "namePoke": "charizard",
-  "numPoke": "006",
-  "rarity": "common",
-  "cardType": "promo",
-  "setFrom": "Sun\u0026Moon"
-},
-{
-  "cardSprite": "006_charizard_common_regular_McDonaldDragonDiscovery_1.png",
-  "namePoke": "charizard",
-  "numPoke": "006",
-  "rarity": "common",
-  "cardType": "regular",
   "setFrom": "McDonaldDragonDiscovery"
 },
 {
-  "cardSprite": "006_charizard_doubleRare_EX_PaldeanFates_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_FullArt_HiddenFates_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "doubleRare",
-  "cardType": "EX",
-  "setFrom": "PaldeanFates"
-},
-{
-  "cardSprite": "006_charizard_rare_FA_HiddenFates_1.png",
-  "namePoke": "charizard",
-  "numPoke": "006",
-  "rarity": "rare",
-  "cardType": "FA",
+  "rarity": "FullArt",
   "setFrom": "HiddenFates"
 },
 {
-  "cardSprite": "006_charizard_rare_FullArt_ShiningFates_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_FullArt_ShiningFates_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "rare",
-  "cardType": "FullArt",
+  "rarity": "FullArt",
   "setFrom": "ShiningFates"
 },
 {
-  "cardSprite": "006_charizard_rare_holo_baseSet_1.jpg",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_holoRare_baseSet_1.jpg",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "rare",
-  "cardType": "holo",
+  "rarity": "holoRare",
   "setFrom": "baseSet"
 },
 {
-  "cardSprite": "006_charizard_rare_promo_Sun\u0026Moon_3.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_Promo_Sun\u0026Moon_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "rare",
-  "cardType": "promo",
+  "rarity": "Promo",
   "setFrom": "Sun\u0026Moon"
 },
 {
-  "cardSprite": "006_charizard_rare_rainbow_UnbrokenBonds_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_Promo_Sun\u0026Moon_2.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "rare",
-  "cardType": "rainbow",
+  "rarity": "Promo",
+  "setFrom": "Sun\u0026Moon"
+},
+{
+  "cardSprite": "006_Charizard_Promo_Sun\u0026Moon_3.png",
+  "namePoke": "Charizard",
+  "numPoke": "006",
+  "rarity": "Promo",
+  "setFrom": "Sun\u0026Moon"
+},
+{
+  "cardSprite": "006_Charizard_rainbow_UnbrokenBonds_1.png",
+  "namePoke": "Charizard",
+  "numPoke": "006",
+  "rarity": "rainbow",
   "setFrom": "UnbrokenBonds"
 },
 {
-  "cardSprite": "006_charizard_rare_regular_PokemonGo_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_rare_PokemonGo_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
   "rarity": "rare",
-  "cardType": "regular",
   "setFrom": "PokemonGo"
 },
 {
-  "cardSprite": "006_charizard_rare_trainerGallery_LostOrigin_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_RR_PaldeanFates_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "rare",
-  "cardType": "trainerGallery",
-  "setFrom": "LostOrigin"
+  "rarity": "RR",
+  "setFrom": "PaldeanFates"
 },
 {
-  "cardSprite": "006_charizard_tagTeam_promo_Sun\u0026Moon_4.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_tagTeamPromo_Sun\u0026Moon_4.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "tagTeam",
-  "cardType": "promo",
+  "rarity": "tagTeamPromo",
   "setFrom": "Sun\u0026Moon"
 },
 {
-  "cardSprite": "006_charizard_uncommon_reverse_Generations_1.png",
-  "namePoke": "charizard",
+  "cardSprite": "006_Charizard_trainerGallery_LostOrigin_1.png",
+  "namePoke": "Charizard",
   "numPoke": "006",
-  "rarity": "uncommon",
-  "cardType": "reverse",
+  "rarity": "trainerGallery",
+  "setFrom": "LostOrigin"
+},
+{
+  "cardSprite": "006_Charizard_Uncommon_Generations_1.png",
+  "namePoke": "Charizard",
+  "numPoke": "006",
+  "rarity": "Uncommon",
   "setFrom": "Generations"
 }
 ]
