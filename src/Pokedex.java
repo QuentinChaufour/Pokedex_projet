@@ -181,40 +181,16 @@ public class Pokedex{
      * the list of Pokemon
      */
     public Map<Integer,List<Pokemon>> createPokemons(){
-
-        File jsonFile = new File(String.join(File.pathSeparator,"."));
-        String jsonContents[] = jsonFile.list();
-
-        boolean existingJsonFile = false;
-
-        for (String content : jsonContents) {
-            if(content.equals("cardsStored.json")){
-                existingJsonFile = true;
-                System.out.println("Json file already exist");
-                break;
-            }
-        }
-
-        int jsonFileContents = 0;
-        if(existingJsonFile){
-            try{
-                BufferedReader readerJson = new BufferedReader(new FileReader(new File(String.join(File.pathSeparator,"cardsStored.json"))));
-                String ligne = null;
-                while((ligne = readerJson.readLine()) != null){
-                    jsonFileContents ++;
-                }
-
-                jsonFileContents -= 2;
-                jsonFileContents = Math.abs(jsonFileContents/7);
-            }
-            catch(IOException e){
-                System.out.println("Can't open Json File");
-            }
-        }
+       
+        boolean existingJsonFile = this.JsonFileExisting(new File(String.join(File.pathSeparator,".")));
 
         File ImgFiles = new File("Card_Img");
         List<String> imgContents = Arrays.asList(ImgFiles.list()); 
-        if(existingJsonFile && (jsonFileContents == imgContents.size())){ //modif to take info from lenght of json
+
+        int jsonFileContents = 0;
+
+        if(existingJsonFile && this.CountLine(new File(String.join(File.pathSeparator,"cardsStored.json"))) == imgContents.size()){ //json up to date
+            imgContents = null;
             System.out.println("Json file didn't changed");
             return this.loadPokemonFromJson();
         }
@@ -444,5 +420,40 @@ public class Pokedex{
         g2d.drawImage(tmp, 0, 0, null);
         g2d.dispose();
         return resized;
+    }
+
+    public boolean JsonFileExisting(File folder){
+
+        String jsonContents[] = folder.list();
+
+        for (String content : jsonContents) {
+            if(content.equals("cardsStored.json")){
+                System.out.println("Json file already exist");
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int CountLine(File jsonFile){
+
+        int count = 0;
+
+        try{
+            BufferedReader readerJson = new BufferedReader(new FileReader(jsonFile));
+            String ligne = null;
+            while((ligne = readerJson.readLine()) != null){
+                count ++;
+            }
+
+            count -= 2;
+            count = Math.abs(count/7);
+            readerJson.close();
+        }
+        catch(IOException e){
+            System.out.println("Can't open Json File");
+        }
+
+        return count;
     }
 }
