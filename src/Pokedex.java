@@ -194,11 +194,13 @@ public class Pokedex{
 
         File ImgFiles = new File("Card_Img");
         String imgContents[] = ImgFiles.list(); 
-        if(existingJsonFile && jsonContents.length == imgContents.length){
+        if(existingJsonFile && (jsonContents.length == imgContents.length)){ //modif to take info from lenght of json
+            System.out.println("Json file didn't changed");
             return this.loadPokemonFromJson();
         }
         else if (existingJsonFile) {
             File jsonFileToDelete = new File("cardsStored.json");
+            System.out.println("Json file to modify");
             jsonFileToDelete.delete();
             jsonFileToDelete = null;
         }
@@ -234,6 +236,7 @@ public class Pokedex{
                     String pokemonSet = imageNameSplit[3];
                     
                     Pokemon pokemon = new Pokemon(imageName, pokemonName, numPoke, rarity,pokemonSet);
+                    System.out.println(pokemon);
                     
                     fileWriter.write(gson.toJson(pokemon));
                     if(count < images.length){
