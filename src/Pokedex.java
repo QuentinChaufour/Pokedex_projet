@@ -1,6 +1,5 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -24,7 +23,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import java.awt.*;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -187,8 +185,6 @@ public class Pokedex{
         File ImgFiles = new File("Card_Img");
         List<String> imgContents = Arrays.asList(ImgFiles.list()); 
 
-        int jsonFileContents = 0;
-
         if(existingJsonFile && this.CountLine(new File(String.join(File.pathSeparator,"cardsStored.json"))) == imgContents.size()){ //json up to date
             imgContents = null;
             System.out.println("Json file didn't changed");
@@ -276,6 +272,11 @@ public class Pokedex{
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         panel.setLayout(new GridLayout(Math.abs(this.allPokemons.size()/4), 4,5,50));
 
+        JScrollPane scrollPane = new JScrollPane(panel);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        scrollPane.getVerticalScrollBar().setUnitIncrement(20); //speed up the scroll
+
         // Faire que les pokémons soient représenté dans l'ordre du num pokédex
         List<Integer> sortedKeys = new ArrayList<>(this.allPokemons.keySet());
         Collections.sort(sortedKeys);
@@ -296,7 +297,8 @@ public class Pokedex{
                     @Override
                     public void mouseClicked(MouseEvent e) {
                         //frame.setVisible(false);
-                        createPokemonFrame(frame,pokemonNumber);
+                        scrollPane.setVisible(false);
+                        createPokemonFrame(frame,scrollPane,pokemonNumber);
                         //frame.setVisible(true);
                     }
                 });
@@ -305,19 +307,13 @@ public class Pokedex{
             }    
         }
 
-
-        JScrollPane scrollPane = new JScrollPane(panel);
-        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-        scrollPane.getVerticalScrollBar().setUnitIncrement(20); //speed up the scroll
-
         frame.add(scrollPane, BorderLayout.CENTER);
         frame.repaint();
         frame.setVisible(true);
 
     }
 
-    public void createPokemonFrame(JFrame frame,Integer pokemonNumber){
+    public void createPokemonFrame(JFrame frame,JScrollPane homePanel,Integer pokemonNumber){
 
         frame.getContentPane().removeAll();
         frame.repaint();
@@ -341,14 +337,6 @@ public class Pokedex{
                 picLabel.setVerticalTextPosition(JLabel.BOTTOM);
                 picLabel.setIconTextGap(10);
                 panelCard.add(picLabel,BorderLayout.CENTER,0);
-                picLabel.addMouseListener(new MouseAdapter() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
-                        //frame.setVisible(false);
-                        createPokemonFrame(frame,pokemonNumber);
-                        //frame.setVisible(true);
-                    }
-                });
             }catch (IOException ex) {
                 System.out.println(String.join(File.separator,"Card_Img",pokemon.getCardSprite()));
             }    

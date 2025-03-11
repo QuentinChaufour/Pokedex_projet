@@ -7,6 +7,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "100_Lt. Surge\u0027s Voltorb_Common_G1_2.jpg",
+  "namePoke": "Lt. Surge\u0027s Voltorb",
+  "numPoke": 100,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "100_Voltorb_Common_BS_1.jpg",
   "namePoke": "Voltorb",
   "numPoke": 100,
@@ -42,7 +49,21 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "101_Electrode_Rare_G1_1.jpg",
+  "namePoke": "Electrode",
+  "numPoke": 101,
+  "rarity": "Rare",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "102_Erika\u0027s Exeggcute_Uncommon_G1_1.jpg",
+  "namePoke": "Erika\u0027s Exeggcute",
+  "numPoke": 102,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "102_Erika\u0027s Exeggcute_Uncommon_G1_2.jpg",
   "namePoke": "Erika\u0027s Exeggcute",
   "numPoke": 102,
   "rarity": "Uncommon",
@@ -133,6 +154,20 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "109_Koga\u0027s Koffing_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Koffing",
+  "numPoke": 109,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "109_Koga\u0027s Koffing_Uncommon_G2_2.jpg",
+  "namePoke": "Koga\u0027s Koffing",
+  "numPoke": 109,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "10_Caterpie_common_BS_1.jpg",
   "namePoke": "Caterpie",
   "numPoke": 10,
@@ -147,6 +182,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "110_Koga\u0027s Weezing_Uncommon_G2_1.jpg",
+  "namePoke": "Koga\u0027s Weezing",
+  "numPoke": 110,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "110_Weezing_Uncommon_FO_1.jpg",
   "namePoke": "Weezing",
   "numPoke": 110,
@@ -159,6 +201,34 @@
   "numPoke": 1111,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Blaine\u0027s Gamble_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Gamble",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Blaine\u0027s Last Resort_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Last Resort",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Blaine\u0027s Quiz #3_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Quiz #3",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Blaine_Rare_G2_1.jpg",
+  "namePoke": "Blaine",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1111_Brock\u0027s Protection_Rare-G1_1.jpg",
@@ -215,6 +285,13 @@
   "numPoke": 1111,
   "rarity": "Rare",
   "setFrom": "G1"
+},
+{
+  "cardSprite": "1111_Cinnabar City Gym_Uncommon_G2_1.jpg",
+  "namePoke": "Cinnabar City Gym",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1111_Clefairy Doll_Rare_BS_1.jpg",
@@ -315,11 +392,32 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "1111_Fushia City Gym_Uncommon_G2_1.jpg",
+  "namePoke": "Fushia City Gym",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "1111_Gambler_Common_FO_1.jpg",
   "namePoke": "Gambler",
   "numPoke": 1111,
   "rarity": "Common",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "1111_Giovanni\u0027s Last Resort_Rare_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Last Resort",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Giovanni_Holo_G2_1.jpg",
+  "namePoke": "Giovanni",
+  "numPoke": 1111,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1111_Good Manners_Uncommon_G1_1.jpg",
@@ -371,6 +469,20 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "1111_Koga\u0027s Ninja Trick_Uncommon_G2_1.jpg",
+  "namePoke": "Koga\u0027s Ninja Trick",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Koga_Rare_G2_1.jpg",
+  "namePoke": "Koga",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "1111_Lass_Rare_BS_1.jpg",
   "namePoke": "Lass",
   "numPoke": 1111,
@@ -392,6 +504,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "1111_Lt. Surge_Holo_G1_2.jpg",
+  "namePoke": "Lt. Surge",
+  "numPoke": 1111,
+  "rarity": "Holo",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "1111_Lt. Surge_Rare_G1_1.jpg",
   "namePoke": "Lt. Surge",
   "numPoke": 1111,
@@ -404,6 +523,13 @@
   "numPoke": 1111,
   "rarity": "Uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Minion of Team Rocket_Uncommon_G2_1.jpg",
+  "namePoke": "Minion of Team Rocket",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1111_Misty\u0027s Duel_Common_G1_1.jpg",
@@ -431,6 +557,13 @@
   "namePoke": "Misty\u0027s Wrath",
   "numPoke": 1111,
   "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "1111_Misty_Holo_G1_1.jpg",
+  "namePoke": "Misty",
+  "numPoke": 1111,
+  "rarity": "Holo",
   "setFrom": "G1"
 },
 {
@@ -574,11 +707,60 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "1111_Rocket\u0027s Minefield Gym_Rare_G2_1.jpg",
+  "namePoke": "Rocket\u0027s Minefield Gym",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Rocket\u0027s Secret Experiment_Uncommon_G2_1.jpg",
+  "namePoke": "Rocket\u0027s Secret Experiment",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "1111_Rocket\u0027s Sneak Attack_Holo_TR_1.jpg",
   "namePoke": "Rocket\u0027s Sneak Attack",
   "numPoke": 1111,
   "rarity": "Holo",
   "setFrom": "TR"
+},
+{
+  "cardSprite": "1111_Sabrina\u0027s ESP_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s ESP",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Sabrina\u0027s Gaze_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Gaze",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Sabrina\u0027s Psychic Control_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Psychic Control",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Sabrina_Rare_G2_1.jpg",
+  "namePoke": "Sabrina",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Saffron City Gym_Uncommon_G2_1.jpg",
+  "namePoke": "Saffron City Gym",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1111_Scoop Up_Rare_BS_1.jpg",
@@ -644,11 +826,46 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "1111_Tickling Machine_Uncommon_G_1.jpg",
+  "namePoke": "Tickling Machine",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G"
+},
+{
+  "cardSprite": "1111_Transparent Walls_Common_G2_1.jpg",
+  "namePoke": "Transparent Walls",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Trash Exchange_Common_G2_1.jpg",
+  "namePoke": "Trash Exchange",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "1111_Vermilion City Gym_Uncommon_G1_1.jpg",
   "namePoke": "Vermilion City Gym",
   "numPoke": 1111,
   "rarity": "Uncommon",
   "setFrom": "G1"
+},
+{
+  "cardSprite": "1111_Viridian City Gym_Rare_G2_1.jpg",
+  "namePoke": "Viridian City Gym",
+  "numPoke": 1111,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Warp Point_Common_G2_1.jpg",
+  "namePoke": "Warp Point",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1112_Double Colorless Energy_Uncommon_BS_1.jpg",
@@ -679,7 +896,21 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "111_Blaine\u0027s Rhyhorn_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Rhyhorn",
+  "numPoke": 111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "111_Brock\u0027s Rhyhorn_Common_G1_1.jpg",
+  "namePoke": "Brock\u0027s Rhyhorn",
+  "numPoke": 111,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "111_Brock\u0027s Rhyhorn_Common_G1_2.jpg",
   "namePoke": "Brock\u0027s Rhyhorn",
   "numPoke": 111,
   "rarity": "Common",
@@ -714,6 +945,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "113_Player\u0027s Chansey_Secret_G_1.jpg",
+  "namePoke": "Player\u0027s Chansey",
+  "numPoke": 113,
+  "rarity": "Secret",
+  "setFrom": "G"
+},
+{
   "cardSprite": "114_Erika\u0027s Tangela_Common_G1_1.jpg",
   "namePoke": "Erika\u0027s Tangela",
   "numPoke": 114,
@@ -721,11 +959,25 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "114_Koga\u0027s Tangela_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Tangela",
+  "numPoke": 114,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "114_Tangela_Common_BS_1.jpg",
   "namePoke": "Tangela",
   "numPoke": 114,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "115_Blaine\u0027s Kangaskhan_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Kangaskhan",
+  "numPoke": 115,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "115_Kangaskhan_Holo_JU_1.jpg",
@@ -784,6 +1036,20 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "118_Misty\u0027s Goldeen_Common_G1_2.jpg",
+  "namePoke": "Misty\u0027s Goldeen",
+  "numPoke": 118,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "119_Misty\u0027s Seaking_Uncommon_G1_1.jpg",
+  "namePoke": "Misty\u0027s Seaking",
+  "numPoke": 119,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "119_Seaking_Uncommon_JU_1.jpg",
   "namePoke": "Seaking",
   "numPoke": 119,
@@ -805,11 +1071,25 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "120_Misty\u0027s Staryu_Common_G1_2.jpg",
+  "namePoke": "Misty\u0027s Staryu",
+  "numPoke": 120,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "120_Staryu_Common_BS_1.jpg",
   "namePoke": "Staryu",
   "numPoke": 120,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "121_Misty\u0027s Starmie_Common_G1_1.jpg",
+  "namePoke": "Misty\u0027s Starmie",
+  "numPoke": 121,
+  "rarity": "Common",
+  "setFrom": "G1"
 },
 {
   "cardSprite": "121_Starmie_Common_BS_1.jpg",
@@ -824,6 +1104,13 @@
   "numPoke": 122,
   "rarity": "Holo",
   "setFrom": "JU"
+},
+{
+  "cardSprite": "122_Sabrina\u0027s Mr. Mime_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Mr. Mime",
+  "numPoke": 122,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "123_Rocket\u0027s Scyther_Holo_G1_1.jpg",
@@ -847,6 +1134,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "124_Sabrina\u0027s Jinx_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Jinx",
+  "numPoke": 124,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "125_Electabuzz_Rare_BS_1.jpg",
   "namePoke": "Electabuzz",
   "numPoke": 125,
@@ -859,6 +1153,20 @@
   "numPoke": 125,
   "rarity": "Holo",
   "setFrom": "G1"
+},
+{
+  "cardSprite": "125_Lt. Surge\u0027s Electabuzz_Uncommon_G1_2.jpg",
+  "namePoke": "Lt. Surge\u0027s Electabuzz",
+  "numPoke": 125,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "126_Blaine\u0027s Magmar_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Magmar",
+  "numPoke": 126,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "126_Magmar_Uncommon_BS_1.jpg",
@@ -875,6 +1183,13 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "127_Giovanni\u0027s Pinsir_Rare_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Pinsir",
+  "numPoke": 127,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "127_Pinsir_Holo_JU_1.jpg",
   "namePoke": "Pinsir",
   "numPoke": 127,
@@ -882,11 +1197,25 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "128_Blaine\u0027s Tauros_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Tauros",
+  "numPoke": 128,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "128_Tauros_Uncommon_JU_1.jpg",
   "namePoke": "Tauros",
   "numPoke": 128,
   "rarity": "Uncommon",
   "setFrom": "JU"
+},
+{
+  "cardSprite": "129_Giovanni\u0027s Magikarp_Common_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Magikarp",
+  "numPoke": 129,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "129_Magikarp_Common_TR_1.jpg",
@@ -924,6 +1253,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "130_Giovanni\u0027s Gyarados_Holo_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Gyarados",
+  "numPoke": 130,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "130_Gyarados_Holo_BS_1.jpg",
   "namePoke": "Gyarados",
   "numPoke": 130,
@@ -950,6 +1286,13 @@
   "numPoke": 132,
   "rarity": "Holo",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "132_Koga\u0027s Ditto_Holo_G2_1.jpg",
+  "namePoke": "Koga\u0027s Ditto",
+  "numPoke": 132,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "133_Eevee_Common_JU_1.jpg",
@@ -1036,6 +1379,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "137_Sabrina\u0027s Parygon_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Parygon",
+  "numPoke": 137,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "138_Omanyte_Common_FO_1.jpg",
   "namePoke": "Omanyte",
   "numPoke": 138,
@@ -1048,6 +1398,13 @@
   "numPoke": 139,
   "rarity": "Uncommon",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "13_Koga\u0027s Weedle_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Weedle",
+  "numPoke": 13,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "13_Weedle_common_BS_1.jpg",
@@ -1078,6 +1435,13 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "143_Rocket\u0027s Snorlax_Rare_G2_1.jpg",
+  "namePoke": "Rocket\u0027s Snorlax",
+  "numPoke": 143,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "143_Snorlax_Holo_JU_1.jpg",
   "namePoke": "Snorlax",
   "numPoke": 143,
@@ -1092,6 +1456,13 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "145_Rocket\u0027s Zapdos_Holo_G2_1.jpg",
+  "namePoke": "Rocket\u0027s Zapdos",
+  "numPoke": 145,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "145_Zapdos_Holo_BS_1.jpg",
   "namePoke": "Zapdos",
   "numPoke": 145,
@@ -1104,6 +1475,13 @@
   "numPoke": 145,
   "rarity": "Holo",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "146_Blaine\u0027s Moltres_Holo_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Moltres",
+  "numPoke": 146,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "146_Moltres_Holo_FO_1.jpg",
@@ -1183,11 +1561,25 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "14_Koga\u0027s Kakuna_Uncommon_G2_1.jpg",
+  "namePoke": "Koga\u0027s Kakuna",
+  "numPoke": 14,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "150_Mewtwo_Holo_BS_1.jpg",
   "namePoke": "Mewtwo",
   "numPoke": 150,
   "rarity": "Holo",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "150_Rocket\u0027s Mewtwo_Holo_G2_1.jpg",
+  "namePoke": "Rocket\u0027s Mewtwo",
+  "numPoke": 150,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "151_Mew_Holo_FO_1.jpg",
@@ -1204,11 +1596,39 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "15_Koga\u0027s Beedrill_Rare_G2_1.jpg",
+  "namePoke": "Koga\u0027s Beedrill",
+  "numPoke": 15,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "16_Koga\u0027s Pidgey_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Pidgey",
+  "numPoke": 16,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "16_Koga\u0027s Pidgey_Uncommon_G2_1.jpg",
+  "namePoke": "Koga\u0027s Pidgey",
+  "numPoke": 16,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "16_Pidgey_Common_BS_1.jpg",
   "namePoke": "Pidgey",
   "numPoke": 16,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "17_Koga\u0027s Pidgeotto_Rare_G2_1.jpg",
+  "namePoke": "Koga\u0027s Pidgeotto",
+  "numPoke": 17,
+  "rarity": "Rare",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "17_Pidgeotto_Rare_BS_1.jpg",
@@ -1226,6 +1646,13 @@
 },
 {
   "cardSprite": "19_Lt. Surge\u0027s Rattata_Common_G1_1.jpg",
+  "namePoke": "Lt. Surge\u0027s Rattata",
+  "numPoke": 19,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "19_Lt. Surge\u0027s Rattata_Common_G1_2.jpg",
   "namePoke": "Lt. Surge\u0027s Rattata",
   "numPoke": 19,
   "rarity": "Common",
@@ -1274,6 +1701,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "20_Lt. Surge\u0027s Raticate_Uncommon_G1_2.jpg",
+  "namePoke": "Lt. Surge\u0027s Raticate",
+  "numPoke": 20,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "20_Raticate_Uncommon_BS_1.jpg",
   "namePoke": "Raticate",
   "numPoke": 20,
@@ -1282,6 +1716,13 @@
 },
 {
   "cardSprite": "21_Lt. Surge\u0027s Spearow_Common_G1_1.jpg",
+  "namePoke": "Lt. Surge\u0027s Spearow",
+  "numPoke": 21,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "21_Lt. Surge\u0027s Spearow_Common_G1_2.jpg",
   "namePoke": "Lt. Surge\u0027s Spearow",
   "numPoke": 21,
   "rarity": "Common",
@@ -1323,6 +1764,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "23_Koga\u0027s Ekans_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Ekans",
+  "numPoke": 23,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "24_Arbok_Uncommon_FO_1.jpg",
   "namePoke": "Arbok",
   "numPoke": 24,
@@ -1337,7 +1785,21 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "24_Koga\u0027s Arbok_Holo_G2_1.jpg",
+  "namePoke": "Koga\u0027s Arbok",
+  "numPoke": 24,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "25_Lt. Surge\u0027s Pikachu_Common_G1_1.jpg",
+  "namePoke": "Lt. Surge\u0027s Pikachu",
+  "numPoke": 25,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "25_Lt. Surge\u0027s Pikachu_Common_G1_2.jpg",
   "namePoke": "Lt. Surge\u0027s Pikachu",
   "numPoke": 25,
   "rarity": "Common",
@@ -1358,6 +1820,13 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "26_Lt. Surge\u0027s Raichu_Holo_G2_1.jpg",
+  "namePoke": "Lt. Surge\u0027s Raichu",
+  "numPoke": 26,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "26_Raichu_Holo_BS_1.jpg",
   "namePoke": "Raichu",
   "numPoke": 26,
@@ -1372,7 +1841,21 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "26_Raichu_Uncommon_G1_1.jpg",
+  "namePoke": "Raichu",
+  "numPoke": 26,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "27_Brock\u0027s Sandshrew_Common_G1_1.jpg",
+  "namePoke": "Brock\u0027s Sandshrew",
+  "numPoke": 27,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "27_Brock\u0027s Sandshrew_Common_G1_2.jpg",
   "namePoke": "Brock\u0027s Sandshrew",
   "numPoke": 27,
   "rarity": "Common",
@@ -1393,11 +1876,25 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "28_Brock\u0027s Sandslash_Uncommon_G1_2.jpg",
+  "namePoke": "Brock\u0027s Sandslash",
+  "numPoke": 28,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "28_Sandslash_Uncommon_FO_1.jpg",
   "namePoke": "Sandslash",
   "numPoke": 28,
   "rarity": "Uncommon",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "29_Giovanni\u0027s Nidoran_Common_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Nidoran",
+  "numPoke": 29,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "29_Nidoran_Common_JU_1.jpg",
@@ -1407,11 +1904,25 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "2_Erika\u0027s Ivysaur_Uncommon_G2_1.jpg",
+  "namePoke": "Erika\u0027s Ivysaur",
+  "numPoke": 2,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "2_Ivysaur_uncommon_BS_1.jpg",
   "namePoke": "Ivysaur",
   "numPoke": 2,
   "rarity": "uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "30_Giovanni\u0027s Nidorina_Uncommon_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Nidorina",
+  "numPoke": 30,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "30_Nidorina_Uncommon_JU_1.jpg",
@@ -1421,11 +1932,25 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "31_Giovanni\u0027s Nidoqueen_Rare_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Nidoqueen",
+  "numPoke": 31,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "31_Nidoqueen_Holo_JU_1.jpg",
   "namePoke": "Nidoqueen",
   "numPoke": 31,
   "rarity": "Holo",
   "setFrom": "JU"
+},
+{
+  "cardSprite": "32_Giovanni\u0027s Nidoran_Common_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Nidoran",
+  "numPoke": 32,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "32_Nidoran_Common_BS_1.jpg",
@@ -1435,11 +1960,25 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "33_Giovanni\u0027s Nidorino_Uncommon_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Nidorino",
+  "numPoke": 33,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "33_Nidorino_Uncommon_BS_1.jpg",
   "namePoke": "Nidorino",
   "numPoke": 33,
   "rarity": "Uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "34_Giovanni\u0027s Nidoking_Holo_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Nidoking",
+  "numPoke": 34,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "34_Nidoking_Holo_BS_1.jpg",
@@ -1463,6 +2002,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "35_Erika\u0027s Clefairy_Uncommon_G1_2.jpg",
+  "namePoke": "Erika\u0027s Clefairy",
+  "numPoke": 35,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "36_Clefable_Holo_JU_1.jpg",
   "namePoke": "Clefable",
   "numPoke": 36,
@@ -1475,6 +2021,13 @@
   "numPoke": 36,
   "rarity": "Holo",
   "setFrom": "G1"
+},
+{
+  "cardSprite": "37_Blaine\u0027s Vulpix_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Vulpix",
+  "numPoke": 37,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "37_Brock\u0027s Vulpix_Common_G1_1.jpg",
@@ -1496,6 +2049,13 @@
   "numPoke": 37,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "38_Blaine\u0027s Ninetales_Rare_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Ninetales",
+  "numPoke": 38,
+  "rarity": "Rare",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "38_Brock\u0027s Ninetales_Holo_G1_1.jpg",
@@ -1526,6 +2086,13 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "3_Erika\u0027s Venusaur_Holo_G2_1.jpg",
+  "namePoke": "Erika\u0027s Venusaur",
+  "numPoke": 3,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "3_Venusaur_holo_BS_1.jpg",
   "namePoke": "Venusaur",
   "numPoke": 3,
@@ -1545,6 +2112,20 @@
   "numPoke": 41,
   "rarity": "Common",
   "setFrom": "G1"
+},
+{
+  "cardSprite": "41_Brock\u0027s Zubat_Common_G1_2.jpg",
+  "namePoke": "Brock\u0027s Zubat",
+  "numPoke": 41,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "41_Koga\u0027s Zubat_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Zubat",
+  "numPoke": 41,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "41_Zubat_Common_FO_1.jpg",
@@ -1582,6 +2163,13 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "42_Koga\u0027s Golbat_Uncommon_G2_1.jpg",
+  "namePoke": "Koga\u0027s Golbat",
+  "numPoke": 42,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "43_Erika\u0027s Oddish_Common_G1_1.jpg",
   "namePoke": "Erika\u0027s Oddish",
   "numPoke": 43,
@@ -1590,6 +2178,13 @@
 },
 {
   "cardSprite": "43_Erika\u0027s Oddish_Common_G1_2.jpg",
+  "namePoke": "Erika\u0027s Oddish",
+  "numPoke": 43,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "43_Erika\u0027s Oddish_Common_G1_3.jpg",
   "namePoke": "Erika\u0027s Oddish",
   "numPoke": 43,
   "rarity": "Common",
@@ -1618,6 +2213,13 @@
 },
 {
   "cardSprite": "44_Erika\u0027s Gloom_Uncommon_G1_1.jpg",
+  "namePoke": "Erika\u0027s Gloom",
+  "numPoke": 44,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "44_Erika\u0027s Gloom_Uncommon_G1_2.jpg",
   "namePoke": "Erika\u0027s Gloom",
   "numPoke": 44,
   "rarity": "Uncommon",
@@ -1673,6 +2275,13 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "48_Sabrina\u0027s Venonat_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Venonat",
+  "numPoke": 48,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "48_Venonat_Common_JU_1.jpg",
   "namePoke": "Venonat",
   "numPoke": 48,
@@ -1680,11 +2289,25 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "49_Sabrina\u0027s Venomoth_Rare_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Venomoth",
+  "numPoke": 49,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "49_Venomoth_Holo_JU_1.jpg",
   "namePoke": "Venomoth",
   "numPoke": 49,
   "rarity": "Holo",
   "setFrom": "JU"
+},
+{
+  "cardSprite": "4_Blaine\u0027s Chamander_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Chamander",
+  "numPoke": 4,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "4_Charmander_Common_BS_1.jpg",
@@ -1722,6 +2345,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "51_Brock\u0027s Dugtrio_Rare_G2_1.jpg",
+  "namePoke": "Brock\u0027s Dugtrio",
+  "numPoke": 51,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "51_Dark Dugtrio_Holo_TR_1.jpg",
   "namePoke": "Dark Dugtrio",
   "numPoke": 51,
@@ -1734,6 +2364,20 @@
   "numPoke": 51,
   "rarity": "Rare",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "52_Giovanni\u0027s Meowth_Common_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Meowth",
+  "numPoke": 52,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "52_Giovanni\u0027s Meowth_Uncommon_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Meowth",
+  "numPoke": 52,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "52_Meowth_Common_JU_1.jpg",
@@ -1757,6 +2401,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "53_Giovanni\u0027s Persian_Holo_G_1.jpg",
+  "namePoke": "Giovanni\u0027s Persian",
+  "numPoke": 53,
+  "rarity": "Holo",
+  "setFrom": "G"
+},
+{
   "cardSprite": "53_Persian_Uncommon_Ju_1.jpg",
   "namePoke": "Persian",
   "numPoke": 53,
@@ -1765,6 +2416,13 @@
 },
 {
   "cardSprite": "54_Misty\u0027s Psyduck_Common_G1_1.jpg",
+  "namePoke": "Misty\u0027s Psyduck",
+  "numPoke": 54,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "54_Misty\u0027s Psyduck_Common_G1_2.jpg",
   "namePoke": "Misty\u0027s Psyduck",
   "numPoke": 54,
   "rarity": "Common",
@@ -1783,6 +2441,13 @@
   "numPoke": 54,
   "rarity": "Common",
   "setFrom": "TR"
+},
+{
+  "cardSprite": "54_Sabrina\u0027s Psyduck_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Psyduck",
+  "numPoke": 54,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "55_Dark Golduck_Uncommon_TR_1.jpg",
@@ -1806,7 +2471,28 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "55_Sabrina\u0027s Golduck_Rare_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Golduck",
+  "numPoke": 55,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "56_Blaine\u0027s Mankey_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Mankey",
+  "numPoke": 56,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "56_Brock\u0027s Mankey_Common_G1_1.jpg",
+  "namePoke": "Brock\u0027s Mankey",
+  "numPoke": 56,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "56_Brock\u0027s Mankey_Common_G1_2.jpg",
   "namePoke": "Brock\u0027s Mankey",
   "numPoke": 56,
   "rarity": "Common",
@@ -1848,6 +2534,13 @@
   "setFrom": "JU"
 },
 {
+  "cardSprite": "58_Blaine\u0027s Growlith_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Growlith",
+  "numPoke": 58,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "58_Growlithe_Uncommon_BS_1.jpg",
   "namePoke": "Growlithe",
   "numPoke": 58,
@@ -1860,6 +2553,20 @@
   "numPoke": 59,
   "rarity": "Uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "59_Blaine\u0027s Arcanine_Holo_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Arcanine",
+  "numPoke": 59,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "5_Blaine\u0027s Charmeleon_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Charmeleon",
+  "numPoke": 5,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "5_Charmeleon_Uncommon_BS_1.jpg",
@@ -1877,6 +2584,13 @@
 },
 {
   "cardSprite": "60_Misty\u0027s Poliwag_Common_G1_1.jpg",
+  "namePoke": "Misty\u0027s Poliwag",
+  "numPoke": 60,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "60_Misty\u0027s Poliwag_Common_G1_2.jpg",
   "namePoke": "Misty\u0027s Poliwag",
   "numPoke": 60,
   "rarity": "Common",
@@ -1904,6 +2618,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "62_Misty\u0027s Poliwrath_Rare_G2_1.jpg",
+  "namePoke": "Misty\u0027s Poliwrath",
+  "numPoke": 62,
+  "rarity": "Rare",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "62_Poliwrath_Holo_BS_1.jpg",
   "namePoke": "Poliwrath",
   "numPoke": 62,
@@ -1925,6 +2646,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "63_Sabrina\u0027s Abra_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Abra",
+  "numPoke": 63,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "64_Dark Kadabra_Uncommon_TR_1.jpg",
   "namePoke": "Dark Kadabra",
   "numPoke": 64,
@@ -1939,6 +2667,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "64_Sabrina\u0027s Kadabra_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Kadabra",
+  "numPoke": 64,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "65_Alakazam_Holo_BS_1.jpg",
   "namePoke": "Alakazam",
   "numPoke": 65,
@@ -1951,6 +2686,20 @@
   "numPoke": 65,
   "rarity": "Holo",
   "setFrom": "TR"
+},
+{
+  "cardSprite": "65_Sabrina\u0027s Alakazam_Holo_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Alakazam",
+  "numPoke": 65,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "66_Giovani\u0027s Machop_Common_G2_1.jpg",
+  "namePoke": "Giovani\u0027s Machop",
+  "numPoke": 66,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "66_Machop_Common_BS_1.jpg",
@@ -1974,6 +2723,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "67_Giovanni\u0027s Machoke_Uncommon_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Machoke",
+  "numPoke": 67,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "67_Machoke_Uncommon_BS_1.jpg",
   "namePoke": "Machoke",
   "numPoke": 67,
@@ -1986,6 +2742,13 @@
   "numPoke": 68,
   "rarity": "Holo",
   "setFrom": "TR"
+},
+{
+  "cardSprite": "68_Giovanni\u0027s Machamp_Holo_G2_1.jpg",
+  "namePoke": "Giovanni\u0027s Machamp",
+  "numPoke": 68,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "68_Machamp_Holo_BS_1.jpg",
@@ -2009,11 +2772,25 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "69_Erika\u0027s Bellsprout_Common_G1_2.jpg",
+  "namePoke": "Erika\u0027s Bellsprout",
+  "numPoke": 69,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "69_Erika\u0027s Bellsprout_G1_2.jpg",
   "namePoke": "Erika\u0027s Bellsprout",
   "numPoke": 69,
   "rarity": "G1",
   "setFrom": "2.jpg"
+},
+{
+  "cardSprite": "6_Blaine\u0027s Charizard_Holo_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Charizard",
+  "numPoke": 6,
+  "rarity": "Holo",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "6_Charizard_common_McDonaldDragonDiscovery_1.png",
@@ -2128,6 +2905,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "70_Erika\u0027s Weepinbell_Uncommon_G1_2.jpg",
+  "namePoke": "Erika\u0027s Weepinbell",
+  "numPoke": 70,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "70_Weepinbell_Uncommon_JU_1.jpg",
   "namePoke": "Weepinbell",
   "numPoke": 70,
@@ -2150,6 +2934,13 @@
 },
 {
   "cardSprite": "72_Misty\u0027s Tentacool_Uncommon_G1_1.jpg",
+  "namePoke": "Misty\u0027s Tentacool",
+  "numPoke": 72,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "72_Misty\u0027s Tentacool_Uncommon_G1_2.jpg",
   "namePoke": "Misty\u0027s Tentacool",
   "numPoke": 72,
   "rarity": "Uncommon",
@@ -2191,6 +2982,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "74_Brock\u0027s Geodude_Common_G1_3.jpg",
+  "namePoke": "Brock\u0027s Geodude",
+  "numPoke": 74,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "74_Geodude_Common_FO_1.jpg",
   "namePoke": "Geodude",
   "numPoke": 74,
@@ -2199,6 +2997,13 @@
 },
 {
   "cardSprite": "75_Brock\u0027s Graveler_Uncommon_G1_1.jpg",
+  "namePoke": "Brock\u0027s Graveler",
+  "numPoke": 75,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "75_Brock\u0027s Graveler_Uncommon_G1_2.jpg",
   "namePoke": "Brock\u0027s Graveler",
   "numPoke": 75,
   "rarity": "Uncommon",
@@ -2226,6 +3031,13 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "77_Blaine\u0027s Ponyta_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Ponyta",
+  "numPoke": 77,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "77_Ponyta_Common_BS_1.jpg",
   "namePoke": "Ponyta",
   "numPoke": 77,
@@ -2240,6 +3052,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "78_Blaine\u0027s Rapidash_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Rapidash",
+  "numPoke": 78,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "78_Dark Rapidash_Common_TR_1.jpg",
   "namePoke": "Dark Rapidash",
   "numPoke": 78,
@@ -2252,6 +3071,13 @@
   "numPoke": 78,
   "rarity": "Uncommon",
   "setFrom": "JU"
+},
+{
+  "cardSprite": "79_Sabrina\u0027s Slowpoke_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Slowpoke",
+  "numPoke": 79,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "79_Slowpoke_Common_FO_1.jpg",
@@ -2287,6 +3113,13 @@
   "numPoke": 80,
   "rarity": "Holo",
   "setFrom": "TR"
+},
+{
+  "cardSprite": "80_Sabrina\u0027s Slowbro_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Slowbro",
+  "numPoke": 80,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "80_Slowbro_Uncommon_FO_1.jpg",
@@ -2359,11 +3192,25 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "84_Blaine\u0027s Doduo_Common_G_1.jpg",
+  "namePoke": "Blaine\u0027s Doduo",
+  "numPoke": 84,
+  "rarity": "Common",
+  "setFrom": "G"
+},
+{
   "cardSprite": "84_Doduo_Common_BS_1.jpg",
   "namePoke": "Doduo",
   "numPoke": 84,
   "rarity": "Common",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "84_Imakuni\u0027s  Doduo_Secret_G2_1.jpg",
+  "namePoke": "Imakuni\u0027s  Doduo",
+  "numPoke": 84,
+  "rarity": "Secret",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "85_Dodrio_Uncommon_JU_1.jpg",
@@ -2374,6 +3221,13 @@
 },
 {
   "cardSprite": "86_Misty\u0027s Seel_Common_G1_1.jpg",
+  "namePoke": "Misty\u0027s Seel",
+  "numPoke": 86,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "86_Misty\u0027s Seel_Common_G1_2.jpg",
   "namePoke": "Misty\u0027s Seel",
   "numPoke": 86,
   "rarity": "Common",
@@ -2415,11 +3269,25 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "88_Koga\u0027s Grimer_Common_G2_1.jpg",
+  "namePoke": "Koga\u0027s Grimer",
+  "numPoke": 88,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "89_Dark Muk_Uncommon_TR_1.jpg",
   "namePoke": "Dark Muk",
   "numPoke": 89,
   "rarity": "Uncommon",
   "setFrom": "TR"
+},
+{
+  "cardSprite": "89_Koga\u0027s Muk_Rare_G2_1.jpg",
+  "namePoke": "Koga\u0027s Muk",
+  "numPoke": 89,
+  "rarity": "Rare",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "89_Muk_Holo_FO_1.jpg",
@@ -2443,6 +3311,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "90_Misty\u0027s Shellder_Common_G1_1.jpg",
+  "namePoke": "Misty\u0027s Shellder",
+  "numPoke": 90,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
   "cardSprite": "90_Shellder_Common_FO_1.jpg",
   "namePoke": "Shellder",
   "numPoke": 90,
@@ -2455,6 +3330,13 @@
   "numPoke": 91,
   "rarity": "Uncommon",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "91_Misty\u0027s Cloyster_Uncommon_G1_1.jpg",
+  "namePoke": "Misty\u0027s Cloyster",
+  "numPoke": 91,
+  "rarity": "Uncommon",
+  "setFrom": "G1"
 },
 {
   "cardSprite": "92_Gastly_Common_BS_1.jpg",
@@ -2471,6 +3353,13 @@
   "setFrom": "FO,"
 },
 {
+  "cardSprite": "92_Sabrina\u0027s Gastly_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Gastly",
+  "numPoke": 92,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "93_Haunter_Holo_FO_1.jpg",
   "namePoke": "Haunter",
   "numPoke": 93,
@@ -2485,6 +3374,13 @@
   "setFrom": "BS"
 },
 {
+  "cardSprite": "93_Sabrina\u0027s Haunter_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Haunter",
+  "numPoke": 93,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "94_Gengar_Holo_FO_1.jpg",
   "namePoke": "Gengar",
   "numPoke": 94,
@@ -2492,7 +3388,21 @@
   "setFrom": "FO"
 },
 {
+  "cardSprite": "94_Sabrina\u0027s Gengar_Holo_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Gengar",
+  "numPoke": 94,
+  "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "95_Brock\u0027s Onix_Common_G1_1.jpg",
+  "namePoke": "Brock\u0027s Onix",
+  "numPoke": 95,
+  "rarity": "Common",
+  "setFrom": "G1"
+},
+{
+  "cardSprite": "95_Brock\u0027s Onix_Common_G1_2.jpg",
   "namePoke": "Brock\u0027s Onix",
   "numPoke": 95,
   "rarity": "Common",
@@ -2520,6 +3430,13 @@
   "setFrom": "TR"
 },
 {
+  "cardSprite": "96_Sabrina\u0027s Drowzee_Common_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Drowzee",
+  "numPoke": 96,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "97_Dark Hypno_Holo_TR_1.jpg",
   "namePoke": "Dark Hypno",
   "numPoke": 97,
@@ -2532,6 +3449,13 @@
   "numPoke": 97,
   "rarity": "Holo",
   "setFrom": "FO"
+},
+{
+  "cardSprite": "97_Sabrina\u0027s Hypno_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Hypno",
+  "numPoke": 97,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "98_Krabby_Common_FO_1.jpg",
