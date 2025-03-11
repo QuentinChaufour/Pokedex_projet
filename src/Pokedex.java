@@ -23,6 +23,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import java.awt.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.util.Arrays;
 import java.util.Collections;
 
 
@@ -192,9 +195,26 @@ public class Pokedex{
             }
         }
 
+        int jsonFileContents = 0;
+        if(existingJsonFile){
+            try{
+                BufferedReader readerJson = new BufferedReader(new FileReader(new File(String.join(File.pathSeparator,"cardsStored.json"))));
+                String ligne = null;
+                while((ligne = readerJson.readLine()) != null){
+                    jsonFileContents ++;
+                }
+
+                jsonFileContents -= 2;
+                jsonFileContents = Math.abs(jsonFileContents/7);
+            }
+            catch(IOException e){
+                System.out.println("Can't open Json File");
+            }
+        }
+
         File ImgFiles = new File("Card_Img");
-        String imgContents[] = ImgFiles.list(); 
-        if(existingJsonFile && (jsonContents.length == imgContents.length)){ //modif to take info from lenght of json
+        List<String> imgContents = Arrays.asList(ImgFiles.list()); 
+        if(existingJsonFile && (jsonFileContents == imgContents.size())){ //modif to take info from lenght of json
             System.out.println("Json file didn't changed");
             return this.loadPokemonFromJson();
         }
