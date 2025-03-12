@@ -217,6 +217,20 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "1111_Blaine\u0027s Quiz #1_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Quiz #1",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Blaine\u0027s Quiz #2_Common_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Quiz #2",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "1111_Blaine\u0027s Quiz #3_Uncommon_G2_1.jpg",
   "namePoke": "Blaine\u0027s Quiz #3",
   "numPoke": 1111,
@@ -385,6 +399,13 @@
   "setFrom": "G1"
 },
 {
+  "cardSprite": "1111_Fervor_Uncommon_G2_1.jpg",
+  "namePoke": "Fervor",
+  "numPoke": 1111,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "1111_Full Heal_Uncommon_BS_1.jpg",
   "namePoke": "Full Heal",
   "numPoke": 1111,
@@ -523,6 +544,20 @@
   "numPoke": 1111,
   "rarity": "Uncommon",
   "setFrom": "BS"
+},
+{
+  "cardSprite": "1111_Master Ball_Common_G2_2.jpg",
+  "namePoke": "Master Ball",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "1111_Max Revive_Common_G2_1.jpg",
+  "namePoke": "Max Revive",
+  "numPoke": 1111,
+  "rarity": "Common",
+  "setFrom": "G2"
 },
 {
   "cardSprite": "1111_Minion of Team Rocket_Uncommon_G2_1.jpg",
@@ -1113,6 +1148,13 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "122_Sabrina\u0027s Mr. Mime_Uncommon_G2_2.jpg",
+  "namePoke": "Sabrina\u0027s Mr. Mime",
+  "numPoke": 122,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "123_Rocket\u0027s Scyther_Holo_G1_1.jpg",
   "namePoke": "Rocket\u0027s Scyther",
   "numPoke": 123,
@@ -1135,6 +1177,13 @@
 },
 {
   "cardSprite": "124_Sabrina\u0027s Jinx_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Jinx",
+  "numPoke": 124,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "124_Sabrina\u0027s Jinx_Uncommon_G2_2.jpg",
   "namePoke": "Sabrina\u0027s Jinx",
   "numPoke": 124,
   "rarity": "Uncommon",
@@ -2030,6 +2079,13 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "37_Blaine\u0027s Vulpix_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Vulpix",
+  "numPoke": 37,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "37_Brock\u0027s Vulpix_Common_G1_1.jpg",
   "namePoke": "Brock\u0027s Vulpix",
   "numPoke": 37,
@@ -2310,6 +2366,13 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "4_Blaine\u0027s Charmander_Common_G2_2.jpg",
+  "namePoke": "Blaine\u0027s Charmander",
+  "numPoke": 4,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "4_Charmander_Common_BS_1.jpg",
   "namePoke": "Charmander",
   "numPoke": 4,
@@ -2541,6 +2604,20 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "58_Blaine\u0027s Growlith_Common_G2_2.jpg",
+  "namePoke": "Blaine\u0027s Growlith",
+  "numPoke": 58,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "58_Blaine\u0027s Growlith_Uncommon_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Growlith",
+  "numPoke": 58,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "58_Growlithe_Uncommon_BS_1.jpg",
   "namePoke": "Growlithe",
   "numPoke": 58,
@@ -2650,6 +2727,20 @@
   "namePoke": "Sabrina\u0027s Abra",
   "numPoke": 63,
   "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "63_Sabrina\u0027s Abra_Common_G2_2.jpg",
+  "namePoke": "Sabrina\u0027s Abra",
+  "numPoke": 63,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "63_Sabrina\u0027s Abra_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Abra",
+  "numPoke": 63,
+  "rarity": "Uncommon",
   "setFrom": "G2"
 },
 {
@@ -3038,6 +3129,13 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "77_Blaine\u0027s Ponyta_Uncommon_G2_2.jpg",
+  "namePoke": "Blaine\u0027s Ponyta",
+  "numPoke": 77,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "77_Ponyta_Common_BS_1.jpg",
   "namePoke": "Ponyta",
   "numPoke": 77,
@@ -3213,6 +3311,13 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "85_Blaine\u0027s Dodrio_G2_1.jpg",
+  "namePoke": "Blaine\u0027s Dodrio",
+  "numPoke": 85,
+  "rarity": "G2",
+  "setFrom": "1.jpg"
+},
+{
   "cardSprite": "85_Dodrio_Uncommon_JU_1.jpg",
   "namePoke": "Dodrio",
   "numPoke": 85,
@@ -3353,7 +3458,21 @@
   "setFrom": "FO,"
 },
 {
+  "cardSprite": "92_Sabrina\u0027s Gastly_Common_G2_2.jpg",
+  "namePoke": "Sabrina\u0027s Gastly",
+  "numPoke": 92,
+  "rarity": "Common",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "92_Sabrina\u0027s Gastly_Uncommon_G2_1.jpg",
+  "namePoke": "Sabrina\u0027s Gastly",
+  "numPoke": 92,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "92_Sabrina\u0027s Gastly_Uncommon_G2_2.jpg",
   "namePoke": "Sabrina\u0027s Gastly",
   "numPoke": 92,
   "rarity": "Uncommon",
@@ -3381,6 +3500,13 @@
   "setFrom": "G2"
 },
 {
+  "cardSprite": "93_Sabrina\u0027s Haunter_Uncommon_G2_2.jpg",
+  "namePoke": "Sabrina\u0027s Haunter",
+  "numPoke": 93,
+  "rarity": "Uncommon",
+  "setFrom": "G2"
+},
+{
   "cardSprite": "94_Gengar_Holo_FO_1.jpg",
   "namePoke": "Gengar",
   "numPoke": 94,
@@ -3392,6 +3518,13 @@
   "namePoke": "Sabrina\u0027s Gengar",
   "numPoke": 94,
   "rarity": "Holo",
+  "setFrom": "G2"
+},
+{
+  "cardSprite": "94_Sabrina\u0027s Gengar_Rare_G2_2.jpg",
+  "namePoke": "Sabrina\u0027s Gengar",
+  "numPoke": 94,
+  "rarity": "Rare",
   "setFrom": "G2"
 },
 {
@@ -3435,6 +3568,13 @@
   "numPoke": 96,
   "rarity": "Common",
   "setFrom": "G2"
+},
+{
+  "cardSprite": "96_Sabrina\u0027s Drowzee_G2_2.jpg",
+  "namePoke": "Sabrina\u0027s Drowzee",
+  "numPoke": 96,
+  "rarity": "G2",
+  "setFrom": "2.jpg"
 },
 {
   "cardSprite": "97_Dark Hypno_Holo_TR_1.jpg",
