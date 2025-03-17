@@ -25,6 +25,7 @@ import java.awt.*;
 import java.io.BufferedReader;
 import java.util.Arrays;
 import java.util.Collections;
+import javax.swing.JTextArea;
 
 
 
@@ -253,18 +254,13 @@ public class Pokedex{
 
     public void paintHomeIU(JFrame frame){
 
-        
-        frame.getContentPane().removeAll();
-        frame.repaint();
-        frame.revalidate();
-
-        frame.setTitle("The Pokedex App V1.0");
+        frame.setTitle("The Pokedex App V1.5");
 
         JPanel panelTop = new JPanel();
         panelTop.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         frame.add(panelTop, BorderLayout.NORTH);
 
-        JLabel homeLabel = new JLabel("Welcome to the Pokedex App V1.0 , the app that allows you to see all the existing Pokemon cards");
+        JLabel homeLabel = new JLabel("Welcome to the Pokedex App V1.5 , the app that allows you to see all the existing Pokemon cards");
         homeLabel.setFont(new Font("Serif", Font.BOLD, 30));
         panelTop.add(homeLabel);
 
@@ -313,6 +309,40 @@ public class Pokedex{
 
     }
 
+
+    /**
+     * retourner a la page d'accueil plus rapidement
+     * @param frame
+     * @param homePane
+     */
+    public void paintHomeIU(JFrame frame,JScrollPane homePane){
+
+        
+        frame.getContentPane().removeAll();
+        frame.repaint();
+        frame.revalidate();
+
+        frame.setTitle("The Pokedex App V1.5");
+
+        JPanel panelTop = new JPanel();
+        panelTop.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+        frame.add(panelTop, BorderLayout.NORTH);
+
+        JLabel homeLabel = new JLabel("Welcome to the Pokedex App V1.5 , the app that allows you to see all the existing Pokemon cards");
+        homeLabel.setFont(new Font("Serif", Font.BOLD, 30));
+        panelTop.add(homeLabel);
+
+        JPanel panel = new JPanel();
+        panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+        panel.setLayout(new GridLayout(Math.abs(this.allPokemons.size()/4), 4,5,50));
+
+        homePane.setVisible(true);
+        frame.add(homePane, BorderLayout.CENTER);
+        frame.repaint();
+        frame.setVisible(true);
+
+    }
+
     public void createPokemonFrame(JFrame frame,JScrollPane homePanel,Integer pokemonNumber){
 
         frame.getContentPane().removeAll();
@@ -329,14 +359,23 @@ public class Pokedex{
         panelCard.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
 
         for (Pokemon pokemon : this.allPokemons.get(pokemonNumber)) {
-            try {                
+            try {           
+                //JPanel card = new JPanel();
+                //card.setLayout(new GridLayout(2,1));
+                
                 BufferedImage image = ImageIO.read(new File(String.join(File.separator,"Card_Img",pokemon.getCardSprite())));
                 JLabel picLabel = new JLabel(new ImageIcon(image));
-                picLabel.setText(pokemon.getNamePoke() + "\n" + pokemon.getRarity() + "\n" + "\n" + pokemon.getSetFrom());
+                picLabel.setText("<html>Name : " + pokemon.getNamePoke() + "<br> Rarity : " + pokemon.getRarity() +  "<br> Set : " + POKEMON_SETS.get(pokemon.getSetFrom()) + "</html>");
+                
+                //JTextArea description = new JTextArea(pokemon.getNamePoke() + "\n" + pokemon.getRarity() + "\n" + "\n" + POKEMON_SETS.get(pokemon.getSetFrom()));
+                //description.setEditable(false);
+                //description.setBounds(0, 0,200,100); 
                 picLabel.setHorizontalTextPosition(JLabel.CENTER);
                 picLabel.setVerticalTextPosition(JLabel.BOTTOM);
                 picLabel.setIconTextGap(10);
-                panelCard.add(picLabel,BorderLayout.CENTER,0);
+                panelCard.add(picLabel,BorderLayout.CENTER);
+                //card.add(description,BorderLayout.CENTER);
+                //panelCard.add(card,BorderLayout.CENTER);
             }catch (IOException ex) {
                 System.out.println(String.join(File.separator,"Card_Img",pokemon.getCardSprite()));
             }    
@@ -349,7 +388,7 @@ public class Pokedex{
         //backButton.setBounds(frame.getWidth()-200,frame.getHeight() -200, 100, 100);
         
         panelCardDown.add(backButton,BorderLayout.CENTER);
-        backButton.addActionListener(e -> paintHomeIU(frame)); // afficher la page d'accueil
+        backButton.addActionListener(_ -> paintHomeIU(frame,homePanel)); // afficher la page d'accueil
 
         
         frame.repaint();
